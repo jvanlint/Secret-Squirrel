@@ -36,7 +36,7 @@
                                     <constraint firstAttribute="height" constant="38" id="5bb-MS-NWc"/>
                                 </constraints>
                             </view>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="irI-36-6Iy">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.14999999999999999" contentMode="center" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="irI-36-6Iy">
                                 <rect key="frame" x="0.0" y="517" width="150" height="150"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJECT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J8-ax-5JE">

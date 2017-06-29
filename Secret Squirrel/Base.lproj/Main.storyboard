@@ -168,12 +168,12 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fA9-NG-gJu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1RY-Sq-bXb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="1RY-Sq-bXb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -412,7 +412,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWQ-v5-7Ec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1753" y="43"/>
+            <point key="canvasLocation" x="873" y="792"/>
         </scene>
         <!--Category-->
         <scene sceneID="KzD-JH-4rD">
@@ -456,7 +456,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSZ-cb-z4D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2610" y="43"/>
+            <point key="canvasLocation" x="1650" y="791"/>
         </scene>
     </scenes>
     <resources>

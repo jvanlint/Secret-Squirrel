@@ -642,6 +642,7 @@
 				37BAA8951F04B30E0053401F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37BAA8961F04B30E0053401F /* Build configuration list for PBXNativeTarget "Secret SquirrelTests" */ = {
 			isa = XCConfigurationList;
@@ -650,6 +651,7 @@
 				37BAA8981F04B30E0053401F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37BAA8991F04B30E0053401F /* Build configuration list for PBXNativeTarget "Secret SquirrelUITests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +660,7 @@
 				37BAA89B1F04B30E0053401F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

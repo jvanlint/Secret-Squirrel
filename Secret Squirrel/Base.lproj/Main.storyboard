@@ -142,7 +142,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Secret Squirrel" id="Oa7-ku-VPz">
                         <barButtonItem key="leftBarButtonItem" image="SettingsIcon" id="ZH9-pT-PwL"/>
-                        <barButtonItem key="rightBarButtonItem" image="SettingsIcon" id="1r4-4p-2L9">
+                        <barButtonItem key="rightBarButtonItem" image="MsgIcon" id="1r4-4p-2L9">
                             <connections>
                                 <action selector="didTouchMessagingButton:" destination="BYZ-38-t0r" id="WGo-gd-pWb"/>
                             </connections>
@@ -183,6 +183,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="MsgIcon" width="22" height="22"/>
         <image name="SettingsIcon" width="22" height="22"/>
         <image name="SquirrelLogo" width="150" height="150"/>
     </resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fA9-NG-gJu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Secret Squirrel-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GenerateCodeViewController" customModule="Secret_Squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-EP-L1v">
+                                <rect key="frame" x="16" y="87" width="343" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="5bb-MS-NWc"/>
+                                </constraints>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="irI-36-6Iy">
+                                <rect key="frame" x="0.0" y="517" width="150" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJECT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J8-ax-5JE">
+                                <rect key="frame" x="27" y="96" width="128" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="eOE-Gu-wbc"/>
+                                    <constraint firstAttribute="width" constant="128" id="iwT-9Z-L8o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unv-Qi-AlZ">
+                                <rect key="frame" x="259" y="637" width="100" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Q2m-ay-BEO"/>
+                                    <constraint firstAttribute="width" constant="100" id="fwV-q9-lZd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-o9-gn5" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                                <rect key="frame" x="67" y="252" width="240" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="bNn-RN-i6t"/>
+                                    <constraint firstAttribute="height" constant="45" id="cK5-zF-e73"/>
+                                </constraints>
+                                <state key="normal" title="It's an Operation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTouchOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTH-ts-sOq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-21-m2J" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                                <rect key="frame" x="67" y="312" width="240" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="NZN-dJ-8bI"/>
+                                    <constraint firstAttribute="width" constant="240" id="ern-Lc-Dji"/>
+                                </constraints>
+                                <state key="normal" title="We've Been Compromised!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTouchGenerateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMi-P8-Wvx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Code Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-G9-yf6">
+                                <rect key="frame" x="16" y="124" width="343" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="oG9-50-h34"/>
+                                    <constraint firstAttribute="width" constant="343" id="p3Z-Nd-gh0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.72354468199999999" blue="0.4151421501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="61I-T5-gro"/>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HT7-dR-2Y4"/>
+                            <constraint firstAttribute="bottom" secondItem="irI-36-6Iy" secondAttribute="bottom" id="Qao-bR-Ytm"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SUz-Zy-UhS"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="TNq-dQ-TtP"/>
+                            <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WPQ-F4-7zV"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="6J8-ax-5JE" secondAttribute="bottom" constant="8" id="ZZu-zY-o1b"/>
+                            <constraint firstItem="lwe-21-m2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zw3-Hp-iD5"/>
+                            <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="dpL-2p-zyt"/>
+                            <constraint firstItem="6J8-ax-5JE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="fNA-Zk-r4M"/>
+                            <constraint firstItem="unv-Qi-AlZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gVt-er-ExB"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="h4T-Hi-otp"/>
+                            <constraint firstItem="6J8-ax-5JE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="j3t-1F-jDy"/>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="top" secondItem="gnv-G9-yf6" secondAttribute="bottom" constant="33" id="sKW-Nt-Ain"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="txz-c6-UZ3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="vVs-O5-Xh9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Secret Squirrel" id="Oa7-ku-VPz">
+                        <barButtonItem key="leftBarButtonItem" image="SettingsIcon" id="ZH9-pT-PwL"/>
+                        <barButtonItem key="rightBarButtonItem" image="SettingsIcon" id="1r4-4p-2L9">
+                            <connections>
+                                <action selector="didTouchMessagingButton:" destination="BYZ-38-t0r" id="WGo-gd-pWb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnProject" destination="h8e-o9-gn5" id="Gvx-9g-4e3"/>
+                        <outlet property="lblCodeName" destination="gnv-G9-yf6" id="GHH-6a-Vhb"/>
+                        <outlet property="lblProject" destination="6J8-ax-5JE" id="tix-B8-clI"/>
+                        <outlet property="lblVersion" destination="unv-Qi-AlZ" id="xL3-oO-44q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.79999999999995" y="42.728635682158924"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Cp-av-sFP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fA9-NG-gJu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1RY-Sq-bXb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HwB-jL-9MD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsH-ji-1O0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="42.728635682158924"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SettingsIcon" width="22" height="22"/>
+        <image name="SquirrelLogo" width="150" height="150"/>
+    </resources>
+</document>

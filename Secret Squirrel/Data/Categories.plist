@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Planets</string>
+		<key>Description</key>
+		<string>Planets in our solar system.</string>
+		<key>Words</key>
+		<array>
+			<string>Venus</string>
+			<string>Earth</string>
+			<string>Mars</string>
+			<string>Saturn</string>
+			<string>Jupiter</string>
+			<string>Mercury</string>
+			<string>Pluto</string>
+			<string>Uranus</string>
+			<string>Neptune</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Big Cats</string>
+		<key>Description</key>
+		<string>Species of large cats.</string>
+		<key>Words</key>
+		<array>
+			<string>Lion</string>
+			<string>Tiger</string>
+			<string>Cheetah</string>
+			<string>Jaguar</string>
+			<string>Panther</string>
+			<string>Leopard</string>
+			<string>Puma</string>
+			<string>Cougar</string>
+		</array>
+	</dict>
+</array>
+</plist>

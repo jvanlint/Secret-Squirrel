@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>themeName</key>
+		<string>Colored Metal Snakes</string>
+		<key>themeDescription</key>
+		<string>Colors and Metal placed before a lethal snake name.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Colors</string>
+		<key>middle</key>
+		<string>Metals</string>
+		<key>suffix</key>
+		<string>Snakes</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Jewel Animals</string>
+		<key>themeDescription</key>
+		<string>Jewels placed before animal names.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Jewels</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Animals</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Haiku</string>
+		<key>themeDescription</key>
+		<string>Adjectives placed before nouns Haiku style.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Haiku Adjectives</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Haiku Nouns</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Metal Snakes</string>
+		<key>themeDescription</key>
+		<string>Metal names placed before lethal snakes.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Metals</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Snakes</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Planet Gods</string>
+		<key>themeDescription</key>
+		<string>Planets in our solar system mixed with Greek Gods</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Planets</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Gods</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Colored Metal</string>
+		<key>themeDescription</key>
+		<string>Colors placed before metals.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Colors</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Metals</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Jewel Animals</string>
+		<key>themeDescription</key>
+		<string>Jewels placed before animal names.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Jewels</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Animals</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Metal Cats</string>
+		<key>themeDescription</key>
+		<string>Big cats with a metal before their name.</string>
+		<key>themeType</key>
+		<string>Application Themes</string>
+		<key>prefix</key>
+		<string>Metals</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>BigCats</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>Planet of the Gods</string>
+		<key>themeDescription</key>
+		<string>Planet names mixed with colors and Greek Gods.</string>
+		<key>themeType</key>
+		<string>User Created Theme</string>
+		<key>prefix</key>
+		<string>Planets</string>
+		<key>middle</key>
+		<string></string>
+		<key>suffix</key>
+		<string>Greek Gods</string>
+	</dict>
+	<dict>
+		<key>themeName</key>
+		<string>My Theme</string>
+		<key>themeDescription</key>
+		<string>My custom theme</string>
+		<key>themeType</key>
+		<string>User Created Theme</string>
+		<key>prefix</key>
+		<string>Jewels</string>
+		<key>middle</key>
+		<string>Metal</string>
+		<key>suffix</key>
+		<string>Animals</string>
+	</dict>
+</array>
+</plist>

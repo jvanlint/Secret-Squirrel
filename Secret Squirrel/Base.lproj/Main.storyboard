@@ -33,18 +33,20 @@
                                 <rect key="frame" x="16" y="87" width="343" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="5bb-MS-NWc"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38" id="NDJ-Ua-saP"/>
+                                    <constraint firstAttribute="height" constant="38" id="qVU-Tj-a56"/>
                                 </constraints>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.14999999999999999" contentMode="center" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="irI-36-6Iy">
                                 <rect key="frame" x="0.0" y="517" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="CZr-6Q-Duv"/>
+                                    <constraint firstAttribute="width" constant="150" id="YgX-aH-TPg"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJECT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J8-ax-5JE">
-                                <rect key="frame" x="27" y="96" width="128" height="20"/>
+                                <rect key="frame" x="27" y="96" width="209" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="eOE-Gu-wbc"/>
-                                    <constraint firstAttribute="width" constant="128" id="iwT-9Z-L8o"/>
+                                    <constraint firstAttribute="height" constant="20" id="T9X-qu-unl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -53,18 +55,18 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unv-Qi-AlZ">
                                 <rect key="frame" x="259" y="637" width="100" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="Q2m-ay-BEO"/>
-                                    <constraint firstAttribute="width" constant="100" id="fwV-q9-lZd"/>
+                                    <constraint firstAttribute="width" constant="100" id="67S-6p-WlE"/>
+                                    <constraint firstAttribute="height" constant="22" id="Tv6-zJ-Lkg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-o9-gn5" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-o9-gn5" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="67" y="252" width="240" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="bNn-RN-i6t"/>
-                                    <constraint firstAttribute="height" constant="45" id="cK5-zF-e73"/>
+                                    <constraint firstAttribute="width" constant="240" id="0Uc-7r-1Ke"/>
+                                    <constraint firstAttribute="height" constant="45" id="ALJ-NL-5KC"/>
                                 </constraints>
                                 <state key="normal" title="It's an Operation">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,11 +86,11 @@
                                     <action selector="didTouchOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTH-ts-sOq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-21-m2J" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-21-m2J" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="67" y="312" width="240" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="NZN-dJ-8bI"/>
-                                    <constraint firstAttribute="width" constant="240" id="ern-Lc-Dji"/>
+                                    <constraint firstAttribute="width" constant="240" id="NbZ-fJ-2oP"/>
+                                    <constraint firstAttribute="height" constant="45" id="qZe-ek-Dyu"/>
                                 </constraints>
                                 <state key="normal" title="We've Been Compromised!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -111,7 +113,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Code Here To Display" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-G9-yf6">
                                 <rect key="frame" x="16" y="124" width="343" height="95"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="eeh-D9-grR"/>
+                                    <constraint firstAttribute="height" constant="95" id="iDr-bB-rbq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -122,25 +124,23 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72354468199999999" blue="0.4151421501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="61I-T5-gro"/>
-                            <constraint firstItem="gnv-G9-yf6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Cqk-jP-DOI"/>
-                            <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Eiy-gg-ERp"/>
-                            <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HT7-dR-2Y4"/>
-                            <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P8g-vP-Jye"/>
-                            <constraint firstAttribute="bottom" secondItem="irI-36-6Iy" secondAttribute="bottom" id="Qao-bR-Ytm"/>
-                            <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="R0C-LJ-Ouq"/>
-                            <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SUz-Zy-UhS"/>
-                            <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WPQ-F4-7zV"/>
-                            <constraint firstItem="lwe-21-m2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zw3-Hp-iD5"/>
-                            <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="dpL-2p-zyt"/>
-                            <constraint firstItem="6J8-ax-5JE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="fNA-Zk-r4M"/>
-                            <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="fxR-f6-fR2"/>
-                            <constraint firstItem="unv-Qi-AlZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gVt-er-ExB"/>
-                            <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="h4T-Hi-otp"/>
-                            <constraint firstItem="6J8-ax-5JE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="j3t-1F-jDy"/>
-                            <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="6J8-ax-5JE" secondAttribute="bottom" constant="8" id="jb2-t0-iBc"/>
-                            <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="txz-c6-UZ3"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="vVs-O5-Xh9"/>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="3jY-9V-UDH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="3tG-8q-YCo"/>
+                            <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Bv-5z-sox"/>
+                            <constraint firstItem="6J8-ax-5JE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="GDx-UV-MJj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="irI-36-6Iy" secondAttribute="bottom" id="K3T-Qt-Gtf"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Nay-6D-uK5"/>
+                            <constraint firstItem="lwe-21-m2J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="TX2-VA-zVq"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UIA-2t-KHf"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Wct-qs-tlT"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="XfW-u8-vf8"/>
+                            <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="bDX-za-CBu"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="gmf-io-efX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6J8-ax-5JE" secondAttribute="trailing" constant="123" id="hIh-H7-l4s"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="j2S-8Y-pWY"/>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="top" secondItem="gnv-G9-yf6" secondAttribute="bottom" constant="33" id="lXb-zD-LCV"/>
+                            <constraint firstItem="unv-Qi-AlZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yar-ee-1gy"/>
+                            <constraint firstItem="6J8-ax-5JE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="ysL-ZO-VsX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Secret Squirrel" id="Oa7-ku-VPz">
@@ -337,10 +337,10 @@
                                     <segue destination="cPF-Ir-6nP" kind="show" identifier="middle" id="TPB-eE-dcR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxn-2N-rCJ" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxn-2N-rCJ" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="26" y="403" width="323" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="4rh-Zp-HAB"/>
+                                    <constraint firstAttribute="height" constant="50" id="UbJ-Se-8fg"/>
                                 </constraints>
                                 <state key="normal" title="Generate Test Code Again">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -360,9 +360,8 @@
                                     <action selector="didTouchTestCodeButton:" destination="PTN-Nb-7El" eventType="touchUpInside" id="CeT-8S-2TX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhE-YN-exQ" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhE-YN-exQ" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="269" y="341" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Edit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -397,11 +396,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.60825520749999995" green="0.35110449789999998" blue="0.71427780389999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="sxn-2N-rCJ" secondAttribute="trailing" constant="10" id="KSO-pm-Y19"/>
+                            <constraint firstItem="sxn-2N-rCJ" firstAttribute="top" secondItem="fhE-YN-exQ" secondAttribute="bottom" constant="32" id="RyD-px-nVf"/>
                             <constraint firstItem="ZNr-mm-0PG" firstAttribute="top" secondItem="JXm-PO-kml" secondAttribute="bottom" constant="26" id="SYT-73-nEJ"/>
-                            <constraint firstItem="4nn-rV-o1h" firstAttribute="top" secondItem="sxn-2N-rCJ" secondAttribute="bottom" constant="214" id="T3D-2D-7UK"/>
+                            <constraint firstItem="sxn-2N-rCJ" firstAttribute="leading" secondItem="EcH-9D-jEh" secondAttribute="leadingMargin" constant="10" id="bQ2-ap-tfh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sxn-2N-rCJ" secondAttribute="trailing" constant="10" id="dTf-wk-LfS"/>
                             <constraint firstItem="ZNr-mm-0PG" firstAttribute="centerX" secondItem="EcH-9D-jEh" secondAttribute="centerX" id="eXA-Cn-EyP"/>
-                            <constraint firstItem="sxn-2N-rCJ" firstAttribute="leading" secondItem="EcH-9D-jEh" secondAttribute="leadingMargin" constant="10" id="tsY-zW-7ae"/>
                         </constraints>
                     </view>
                     <connections>

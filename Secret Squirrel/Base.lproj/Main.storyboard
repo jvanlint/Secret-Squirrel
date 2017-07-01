@@ -29,11 +29,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-EP-L1v">
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-EP-L1v" userLabel="OpaqueTitleBar">
                                 <rect key="frame" x="16" y="87" width="343" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="5bb-MS-NWc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38" id="NDJ-Ua-saP"/>
                                 </constraints>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.14999999999999999" contentMode="center" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="irI-36-6Iy">
@@ -59,7 +60,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-o9-gn5" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-o9-gn5" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="67" y="252" width="240" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="bNn-RN-i6t"/>
@@ -83,7 +84,7 @@
                                     <action selector="didTouchOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTH-ts-sOq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-21-m2J" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-21-m2J" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="67" y="312" width="240" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="NZN-dJ-8bI"/>
@@ -107,11 +108,10 @@
                                     <action selector="didTouchGenerateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMi-P8-Wvx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Code Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-G9-yf6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Code Here To Display" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-G9-yf6">
                                 <rect key="frame" x="16" y="124" width="343" height="95"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="oG9-50-h34"/>
-                                    <constraint firstAttribute="width" constant="343" id="p3Z-Nd-gh0"/>
+                                    <constraint firstAttribute="height" constant="95" id="eeh-D9-grR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -123,19 +123,22 @@
                         <color key="backgroundColor" red="1" green="0.72354468199999999" blue="0.4151421501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="61I-T5-gro"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Cqk-jP-DOI"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Eiy-gg-ERp"/>
                             <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HT7-dR-2Y4"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P8g-vP-Jye"/>
                             <constraint firstAttribute="bottom" secondItem="irI-36-6Iy" secondAttribute="bottom" id="Qao-bR-Ytm"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="R0C-LJ-Ouq"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SUz-Zy-UhS"/>
-                            <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="TNq-dQ-TtP"/>
                             <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WPQ-F4-7zV"/>
-                            <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="6J8-ax-5JE" secondAttribute="bottom" constant="8" id="ZZu-zY-o1b"/>
                             <constraint firstItem="lwe-21-m2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zw3-Hp-iD5"/>
                             <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="dpL-2p-zyt"/>
                             <constraint firstItem="6J8-ax-5JE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="fNA-Zk-r4M"/>
+                            <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="fxR-f6-fR2"/>
                             <constraint firstItem="unv-Qi-AlZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gVt-er-ExB"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="h4T-Hi-otp"/>
                             <constraint firstItem="6J8-ax-5JE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="j3t-1F-jDy"/>
-                            <constraint firstItem="h8e-o9-gn5" firstAttribute="top" secondItem="gnv-G9-yf6" secondAttribute="bottom" constant="33" id="sKW-Nt-Ain"/>
+                            <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="6J8-ax-5JE" secondAttribute="bottom" constant="8" id="jb2-t0-iBc"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="txz-c6-UZ3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="vVs-O5-Xh9"/>
                         </constraints>

@@ -133,7 +133,7 @@ class GenerateCodeViewController: UIViewController {
     
     func updateAppVersionLabel(){
         
-        lblVersion.text = AppController.sharedInstance.appVersion()
+        lblVersion.text = AppController.sharedInstance.appVersion() + " (\(AppController.sharedInstance.appBuildNumber()))"
     }
     
     

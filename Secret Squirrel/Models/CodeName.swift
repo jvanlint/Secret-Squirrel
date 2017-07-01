@@ -17,7 +17,24 @@ struct CodeName{
     // MARK: - Computed Properties
     
     var codeNameString: String {
-        return "\(self.prefix) \(self.middle) \(self.suffix)"
+        
+        // Declare a var that store the built up string
+        var codeString: String = ""
+        
+        // Build the string piece by piece ignoring any category that is "None".
+        if !(self.prefix==""){
+            codeString = codeString + self.prefix
+        }
+        
+        if !(self.middle==""){
+            codeString = codeString + " " + self.middle
+        }
+        
+        if !(self.suffix==""){
+            codeString = codeString + " " + self.suffix
+        }
+        
+        return codeString
     }
     
     // MARK: - Initializers

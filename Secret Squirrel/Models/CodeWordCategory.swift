@@ -53,7 +53,7 @@ struct CodeWordCategories {
     }
     
     
-    /// Generates a random word from the loaded dictionary for a given category.
+    /// Generates a random word from the words for a given category.
     ///
     /// - Parameter category: The category from which the word is required.
     /// - Returns: A random word string.

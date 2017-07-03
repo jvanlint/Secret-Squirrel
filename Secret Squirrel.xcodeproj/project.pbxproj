@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		375DDB261F0A0F5900941B4B /* CodeWordCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A50F121F0A03E000855716 /* CodeWordCategories.swift */; };
 		375DDB271F0A101500941B4B /* CodeWordCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A50F121F0A03E000855716 /* CodeWordCategories.swift */; };
+		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA86E1F04B30E0053401F /* AppDelegate.swift */; };
 		37BAA8741F04B30E0053401F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8721F04B30E0053401F /* Main.storyboard */; };
 		37BAA8761F04B30E0053401F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8751F04B30E0053401F /* Assets.xcassets */; };
@@ -404,6 +405,7 @@
 				37BAA8A41F04B4120053401F /* WireframeButton.swift in Sources */,
 				37BAA8A81F04B4120053401F /* MessageComposer.swift in Sources */,
 				37BAA8C31F04B6A30053401F /* Category.swift in Sources */,
+				375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */,
 				37BAA8B61F04B5310053401F /* CodeName.swift in Sources */,
 				37BAA8B21F04B4C90053401F /* ArrayExtensions.swift in Sources */,
 				37BAA8C01F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
@@ -551,7 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Secret Squirrel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -570,7 +572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Secret Squirrel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

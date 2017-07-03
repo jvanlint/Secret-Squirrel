@@ -16,6 +16,7 @@ class GenerateCodeViewController: UIViewController {
     
     var currentColorIndex = 1                           //Keeps track of current color to help the same color being randomised
                                                         //twice in a row.
+    
     let messageObject = MessageComposer()                //Instance of MessageComposer declared at a scope that can be seen
                                                         //throughout the lifetime of the View Controller 
                                                         //(so that the delegate callback can be invoked when appropriate).
@@ -90,7 +91,7 @@ class GenerateCodeViewController: UIViewController {
     
     //MARK: - Messaging Functions
     
-    /// <#Description#>
+    /// Launches iOS email with specified message and subject.
     ///
     /// - parameter message: <#message description#>
     /// - parameter subject: <#subject description#>

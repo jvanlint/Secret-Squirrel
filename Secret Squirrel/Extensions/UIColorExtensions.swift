@@ -104,7 +104,7 @@ extension UIColor {
     // ColorTuple declaration for randomFlatColor function
     typealias ColorTuple = (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)
     
-    /// Returns a random Flat UI color
+    /// A random Flat UI color selector.
     ///
     /// - returns: A random UIColor object that is a member of the Flat UI color family.
     class func randomFlatColor() -> UIColor {
@@ -138,8 +138,13 @@ extension UIColor {
         return UIColor(red: color.red, green: color.green, blue: color.blue, alpha: color.alpha)
     }
     
-    //Move this as an extension to UIColor
     
+    
+    /// Test luminance of a given color in order to determine if text place on it
+    /// is best as a black or white color. Used for rendering text on colored backgrounds.
+    ///
+    /// - Parameter color: The color to be tested for contrast.
+    /// - Returns: The recommended text color (black or white).
     class func contrastColor(color: UIColor) -> UIColor {
         var r = CGFloat(0)
         var g = CGFloat(0)

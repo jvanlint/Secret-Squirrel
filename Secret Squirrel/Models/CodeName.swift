@@ -54,7 +54,7 @@ struct CodeName{
     /// - returns: A CodeName object with values generated from referencing user selected categories stored in the AppController.
     init(){
         
-        let categoryData = Category.init()                              //Create a Category object that loads the categories from disk.
+        let categoryData = CodeWordCategories()                         //Create a Category object that loads the categories from disk.
         
         let storedPrefix = AppController.sharedInstance.prefix          // Get the app wide prefix category from the AppController.
         let storedMiddle = AppController.sharedInstance.middle          // Get the app wide middle category from the AppController.

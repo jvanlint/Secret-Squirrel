@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct CodeWordCategory{
+struct CodeWordCategory {
     let categoryName: String
     let categoryDesc: String
     let categoryWords: [String]
@@ -18,17 +18,5 @@ struct CodeWordCategory{
         self.categoryName = categoryName
         self.categoryDesc = categoryDesc
         self.categoryWords = categoryWords
-    }
-    
-    // Convenience initialiser.
-    init(){
-        //let tempPath = Bundle.main.path(forResource: "NameData", ofType: "plist")   //Get the path of the plist file
-        //let tempDict = NSDictionary(contentsOfFile: tempPath!)
-        
-        let categoryName = "Load Name here"
-        let categoryDescription = "Load a desc here."
-        let categoryWords = ["Word One", "Word Two", "etc"]
-        
-        self.init(categoryName: categoryName, categoryDesc: categoryDescription,  categoryWords: categoryWords)
     }
 }

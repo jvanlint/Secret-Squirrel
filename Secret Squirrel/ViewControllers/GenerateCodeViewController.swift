@@ -33,8 +33,6 @@ class GenerateCodeViewController: UIViewController {
         
         super.viewDidLoad()
        
-        generateNewProjectCode()                        //Generate a new project code and update the label.
-        
         updateAppVersionLabel()                         //Update the version number string.
     }
     
@@ -116,6 +114,7 @@ class GenerateCodeViewController: UIViewController {
     /// Generates a new project code name and sets the appropriate UI elements including background color.
     func generateNewProjectCode(){
         
+        
         let newCodeName = CodeName()
         lblCodeName.text = newCodeName.codeNameString
         
@@ -139,7 +138,4 @@ class GenerateCodeViewController: UIViewController {
     
     //MARK: - Storyboard Navigation Methods
     
-    @IBAction func unwindToVC(segue: UIStoryboardSegue) {
-    
-    }
 }

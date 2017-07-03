@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		375DDB261F0A0F5900941B4B /* CodeWordCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A50F121F0A03E000855716 /* CodeWordCategories.swift */; };
-		375DDB271F0A101500941B4B /* CodeWordCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A50F121F0A03E000855716 /* CodeWordCategories.swift */; };
 		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA86E1F04B30E0053401F /* AppDelegate.swift */; };
 		37BAA8741F04B30E0053401F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8721F04B30E0053401F /* Main.storyboard */; };
@@ -38,8 +36,6 @@
 		37BAA8BE1F04B5E70053401F /* CustomiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */; };
 		37BAA8BF1F04B5E70053401F /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */; };
 		37BAA8C01F04B5E70053401F /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */; };
-		37BAA8C21F04B6A30053401F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8C11F04B6A30053401F /* Category.swift */; };
-		37BAA8C31F04B6A30053401F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8C11F04B6A30053401F /* Category.swift */; };
 		37BAA8CA1F04BC830053401F /* Themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C61F04BC830053401F /* Themes.plist */; };
 		37BAA8CB1F04BC830053401F /* Themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C61F04BC830053401F /* Themes.plist */; };
 		37BAA8CC1F04BC830053401F /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C71F04BC830053401F /* Categories.plist */; };
@@ -66,7 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37A50F121F0A03E000855716 /* CodeWordCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCategories.swift; sourceTree = "<group>"; };
 		37BAA86B1F04B30E0053401F /* Secret Squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BAA86E1F04B30E0053401F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37BAA8731F04B30E0053401F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +85,6 @@
 		37BAA8B81F04B5DA0053401F /* GenerateCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCodeViewController.swift; sourceTree = "<group>"; };
 		37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomiseViewController.swift; sourceTree = "<group>"; };
 		37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
-		37BAA8C11F04B6A30053401F /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		37BAA8C61F04BC830053401F /* Themes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Themes.plist; sourceTree = "<group>"; };
 		37BAA8C71F04BC830053401F /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		56370F491F07A4070008B2EC /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
@@ -204,9 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				37BAA8B41F04B5310053401F /* CodeName.swift */,
-				37BAA8C11F04B6A30053401F /* Category.swift */,
 				56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */,
-				37A50F121F0A03E000855716 /* CodeWordCategories.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -384,9 +376,7 @@
 				37BAA8A11F04B4120053401F /* AppController.swift in Sources */,
 				37BAA8B51F04B5310053401F /* CodeName.swift in Sources */,
 				37BAA8BD1F04B5E70053401F /* CustomiseViewController.swift in Sources */,
-				375DDB261F0A0F5900941B4B /* CodeWordCategories.swift in Sources */,
 				37BAA8BF1F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
-				37BAA8C21F04B6A30053401F /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,13 +388,11 @@
 				37BAA8B01F04B4C90053401F /* IntExtensions.swift in Sources */,
 				37BAA8841F04B30E0053401F /* Secret_SquirrelTests.swift in Sources */,
 				37BAA8A61F04B4120053401F /* CornerLabel.swift in Sources */,
-				375DDB271F0A101500941B4B /* CodeWordCategories.swift in Sources */,
 				37BAA8A21F04B4120053401F /* AppController.swift in Sources */,
 				37BAA8BE1F04B5E70053401F /* CustomiseViewController.swift in Sources */,
 				37BAA8AE1F04B4C90053401F /* UIColorExtensions.swift in Sources */,
 				37BAA8A41F04B4120053401F /* WireframeButton.swift in Sources */,
 				37BAA8A81F04B4120053401F /* MessageComposer.swift in Sources */,
-				37BAA8C31F04B6A30053401F /* Category.swift in Sources */,
 				375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */,
 				37BAA8B61F04B5310053401F /* CodeName.swift in Sources */,
 				37BAA8B21F04B4C90053401F /* ArrayExtensions.swift in Sources */,

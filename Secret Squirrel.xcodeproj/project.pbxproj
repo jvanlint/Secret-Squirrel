@@ -39,8 +39,6 @@
 		37BAA8C01F04B5E70053401F /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */; };
 		37BAA8C21F04B6A30053401F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8C11F04B6A30053401F /* Category.swift */; };
 		37BAA8C31F04B6A30053401F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8C11F04B6A30053401F /* Category.swift */; };
-		37BAA8C81F04BC830053401F /* NameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C51F04BC830053401F /* NameData.plist */; };
-		37BAA8C91F04BC830053401F /* NameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C51F04BC830053401F /* NameData.plist */; };
 		37BAA8CA1F04BC830053401F /* Themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C61F04BC830053401F /* Themes.plist */; };
 		37BAA8CB1F04BC830053401F /* Themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C61F04BC830053401F /* Themes.plist */; };
 		37BAA8CC1F04BC830053401F /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C71F04BC830053401F /* Categories.plist */; };
@@ -92,7 +90,6 @@
 		37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomiseViewController.swift; sourceTree = "<group>"; };
 		37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		37BAA8C11F04B6A30053401F /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		37BAA8C51F04BC830053401F /* NameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NameData.plist; sourceTree = "<group>"; };
 		37BAA8C61F04BC830053401F /* Themes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Themes.plist; sourceTree = "<group>"; };
 		37BAA8C71F04BC830053401F /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		56370F491F07A4070008B2EC /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
@@ -227,7 +224,6 @@
 		37BAA8C41F04B7DD0053401F /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				37BAA8C51F04BC830053401F /* NameData.plist */,
 				37BAA8C61F04BC830053401F /* Themes.plist */,
 				37BAA8C71F04BC830053401F /* Categories.plist */,
 			);
@@ -347,7 +343,6 @@
 				37BAA8791F04B30E0053401F /* LaunchScreen.storyboard in Resources */,
 				37BAA8761F04B30E0053401F /* Assets.xcassets in Resources */,
 				37BAA8741F04B30E0053401F /* Main.storyboard in Resources */,
-				37BAA8C81F04BC830053401F /* NameData.plist in Resources */,
 				37BAA8CC1F04BC830053401F /* Categories.plist in Resources */,
 				37BAA8CA1F04BC830053401F /* Themes.plist in Resources */,
 			);
@@ -359,7 +354,6 @@
 			files = (
 				37BAA8CB1F04BC830053401F /* Themes.plist in Resources */,
 				37BAA8CD1F04BC830053401F /* Categories.plist in Resources */,
-				37BAA8C91F04BC830053401F /* NameData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

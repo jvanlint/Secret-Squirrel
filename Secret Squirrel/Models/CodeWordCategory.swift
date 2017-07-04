@@ -9,9 +9,13 @@
 import Foundation
 
 struct CodeWordCategory {
+    
+    //MARK: - Properties
     let categoryName: String
     let categoryDesc: String
     let categoryWords: [String]
+    
+    // MARK: - Initializers
     
     // Designated initializer
     init(categoryName:String, categoryDesc: String, categoryWords: [String]) {
@@ -23,7 +27,10 @@ struct CodeWordCategory {
 
 struct CodeWordCategories {
     
+    //MARK: - Properties
     var categoriesData:[CodeWordCategory] = []
+    
+    // MARK: - Initializers
     
     // Designated initializer
     init(categoryObjects:[CodeWordCategory] ) {
@@ -52,6 +59,7 @@ struct CodeWordCategories {
         self.init(categoryObjects: categoryArray)
     }
     
+    //MARK: - Methods
     
     /// Generates a random word from the words for a given category.
     ///

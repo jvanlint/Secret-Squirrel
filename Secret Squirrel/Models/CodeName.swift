@@ -25,11 +25,9 @@ struct CodeName{
         if !(self.prefix==""){
             codeString = codeString + self.prefix
         }
-        
         if !(self.middle==""){
             codeString = codeString + " " + self.middle
         }
-        
         if !(self.suffix==""){
             codeString = codeString + " " + self.suffix
         }

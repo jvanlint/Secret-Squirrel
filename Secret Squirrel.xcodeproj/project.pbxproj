@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43D1F0C4F7200E2F502 /* Theme.swift */; };
+		3703E4401F0C5C8700E2F502 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */; };
 		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA86E1F04B30E0053401F /* AppDelegate.swift */; };
 		37BAA8741F04B30E0053401F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8721F04B30E0053401F /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		3703E43D1F0C4F7200E2F502 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		37BAA86B1F04B30E0053401F /* Secret Squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BAA86E1F04B30E0053401F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37BAA8731F04B30E0053401F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				37BAA8B81F04B5DA0053401F /* GenerateCodeViewController.swift */,
 				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
 				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
+				3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */,
 			);
 			name = "View Controllers";
 			path = ViewControllers;
@@ -375,6 +378,7 @@
 				37BAA8A71F04B4120053401F /* MessageComposer.swift in Sources */,
 				37BAA8A31F04B4120053401F /* WireframeButton.swift in Sources */,
 				37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
+				3703E4401F0C5C8700E2F502 /* SettingsViewController.swift in Sources */,
 				37BAA8B11F04B4C90053401F /* ArrayExtensions.swift in Sources */,
 				37BAA8A11F04B4120053401F /* AppController.swift in Sources */,
 				37BAA8B51F04B5310053401F /* CodeName.swift in Sources */,

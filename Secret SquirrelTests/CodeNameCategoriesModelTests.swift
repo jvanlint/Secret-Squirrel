@@ -10,13 +10,15 @@ import XCTest
 
 class CodeNameCategoriesModelTests: XCTestCase {
     
+    var CodeWordCategoriesObject: CodeWordCategories!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        CodeWordCategoriesObject=CodeWordCategories()
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        CodeWordCategoriesObject = nil
         super.tearDown()
     }
     
@@ -24,26 +26,35 @@ class CodeNameCategoriesModelTests: XCTestCase {
         let testCodeWordCategory = CodeWordCategory.init(categoryName: "My Category", categoryDesc: "My Desc", categoryWords: ["Cats", "Jewels", "Metals"])
         let testCodeWordCategories = CodeWordCategories.init(categoryObjects: [testCodeWordCategory])
         
-        XCTAssert(testCodeWordCategories.categoriesData.count > 0)
+        XCTAssert(testCodeWordCategories.categoriesData.count > 0, "Categories initialiser failed.")
     }
     
     func testConvenienceInitialiser(){
-        let testCodeWordCategories=CodeWordCategories.init()
-        XCTAssertNotNil(testCodeWordCategories.categoriesData)
-        XCTAssert(testCodeWordCategories.categoriesData.count > 0)
+        XCTAssertNotNil(CodeWordCategoriesObject.categoriesData)
+        XCTAssert(CodeWordCategoriesObject.categoriesData.count > 0, "Array of Categories not initialised.")
     }
     
-    func testArrayofWords(){
-        let testCodeWordCategories=CodeWordCategories.init()
-        XCTAssert(testCodeWordCategories.arrayOfWords(forCategory: "Metals").count == 22)
-        XCTAssert(testCodeWordCategories.arrayOfWords(forCategory: "Test") == [])
+    func testArrayOfWordsForCategory(){
+        XCTAssert(CodeWordCategoriesObject.arrayOfWords(forCategory: "Metals").count == 22, "Count of Metals category not correct.")
+        XCTAssert(CodeWordCategoriesObject.arrayOfWords(forCategory: "Test") == [], "Array not empty for unspecified Category.")
     }
 
+    func testArrayOfAllCategories(){
+        XCTAssert(CodeWordCategoriesObject.arrayOfAllCategories().count > 0, "Array of all categories empty.")
+    }
+    
+    func testRandomWordFromCategory(){
+        XCTAssertNotNil(CodeWordCategoriesObject.randomWord(fromCategory: "Metals"), "Random Word returned nil.")
+        XCTAssertNotNil(CodeWordCategoriesObject.randomWord(fromCategory: "Test"), "Random Word for unknown category returned nil.")
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             //Test speed of plist read here.
             // Put the code you want to measure the time of here.
+            let speedTest = CodeWordCategories.init()
+            _ = speedTest.randomWord(fromCategory: "Metals")
         }
     }
     

@@ -36,6 +36,7 @@ class Secret_SquirrelUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
+        /*
         XCUIDevice.shared().orientation = .faceUp
         XCUIDevice.shared().orientation = .faceUp
         
@@ -52,7 +53,7 @@ class Secret_SquirrelUITests: XCTestCase {
         secretSquirrelNavigationBar.buttons["MsgIcon"].tap()
         snapshot("04-SendMsg")
         app.sheets.buttons["Cancel"].tap()
-        
+        */
         
         
         

@@ -26,7 +26,7 @@ class CodeNameModelTests: XCTestCase {
         
     }
     
-    func testCodeNameInitialisation(){
+    func testDesignatedInitialiser(){
         let testCodeName = CodeName.init(prefix: "Test", middle: "Middle", suffix: "Suffix")
         
         XCTAssertTrue(testCodeName.prefix == "Test")
@@ -48,7 +48,7 @@ class CodeNameModelTests: XCTestCase {
         XCTAssert(testMissingPrefix.codeNameString == "Test Middle")
     }
     
-    func testCodeNameConvenienceInitialiser(){
+    func testConvenienceInitialiser(){
         XCTAssertNotNil(codeNameTest.prefix)
         XCTAssertNotNil(codeNameTest.middle)
         XCTAssertNotNil(codeNameTest.suffix)

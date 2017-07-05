@@ -13,6 +13,8 @@
 		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		377E0CD01F0CD5970083D03F /* CodeWordCategoryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */; };
 		377E0CD21F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */; };
+		377E0CD41F0DA2540083D03F /* ThemeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CD31F0DA2540083D03F /* ThemeModelTests.swift */; };
+		377E0CD61F0DA42B0083D03F /* ThemesModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CD51F0DA42B0083D03F /* ThemesModelTests.swift */; };
 		37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA86E1F04B30E0053401F /* AppDelegate.swift */; };
 		37BAA8741F04B30E0053401F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8721F04B30E0053401F /* Main.storyboard */; };
 		37BAA8761F04B30E0053401F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8751F04B30E0053401F /* Assets.xcassets */; };
@@ -71,6 +73,8 @@
 		3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameModelTests.swift; sourceTree = "<group>"; };
 		377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCategoryModelTests.swift; sourceTree = "<group>"; };
 		377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameCategoriesModelTests.swift; sourceTree = "<group>"; };
+		377E0CD31F0DA2540083D03F /* ThemeModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModelTests.swift; sourceTree = "<group>"; };
+		377E0CD51F0DA42B0083D03F /* ThemesModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesModelTests.swift; sourceTree = "<group>"; };
 		37BAA86B1F04B30E0053401F /* Secret Squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BAA86E1F04B30E0053401F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37BAA8731F04B30E0053401F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 				377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */,
 				377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */,
 				37BAA8851F04B30E0053401F /* Info.plist */,
+				377E0CD31F0DA2540083D03F /* ThemeModelTests.swift */,
+				377E0CD51F0DA42B0083D03F /* ThemesModelTests.swift */,
 			);
 			path = "Secret SquirrelTests";
 			sourceTree = "<group>";
@@ -405,6 +411,8 @@
 				37BAA8A21F04B4120053401F /* AppController.swift in Sources */,
 				377E0CD01F0CD5970083D03F /* CodeWordCategoryModelTests.swift in Sources */,
 				3703E4421F0C6BEC00E2F502 /* CodeNameModelTests.swift in Sources */,
+				377E0CD41F0DA2540083D03F /* ThemeModelTests.swift in Sources */,
+				377E0CD61F0DA42B0083D03F /* ThemesModelTests.swift in Sources */,
 				37BAA8BE1F04B5E70053401F /* CustomiseViewController.swift in Sources */,
 				37BAA8AE1F04B4C90053401F /* UIColorExtensions.swift in Sources */,
 				37BAA8A41F04B4120053401F /* WireframeButton.swift in Sources */,

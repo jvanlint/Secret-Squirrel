@@ -14,6 +14,7 @@ struct CodeWordCategory {
     let categoryName: String
     let categoryDesc: String
     let categoryWords: [String]
+    //let categoryImage: String
     
     // MARK: - Initializers
     

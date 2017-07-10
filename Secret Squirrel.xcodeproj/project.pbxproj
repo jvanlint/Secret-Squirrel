@@ -47,6 +47,8 @@
 		37BAA8CC1F04BC830053401F /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C71F04BC830053401F /* Categories.plist */; };
 		37BAA8CD1F04BC830053401F /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C71F04BC830053401F /* Categories.plist */; };
 		56370F4A1F07A4070008B2EC /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56370F491F07A4070008B2EC /* SnapshotHelper.swift */; };
+		564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
+		564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE971F13A69100F4CAB4 /* CornerImage.swift */; };
 		56E19E801F09245B00D9F35D /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +102,8 @@
 		37BAA8C61F04BC830053401F /* Themes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Themes.plist; sourceTree = "<group>"; };
 		37BAA8C71F04BC830053401F /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		56370F491F07A4070008B2EC /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		564DBE971F13A69100F4CAB4 /* CornerImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerImage.swift; sourceTree = "<group>"; };
 		56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +199,8 @@
 				37BAA89E1F04B4120053401F /* WireframeButton.swift */,
 				37BAA89F1F04B4120053401F /* CornerLabel.swift */,
 				37BAA8A01F04B4120053401F /* MessageComposer.swift */,
+				564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */,
+				564DBE971F13A69100F4CAB4 /* CornerImage.swift */,
 			);
 			name = "Custom Classes";
 			path = "../Custom Classes";
@@ -389,7 +395,9 @@
 				37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */,
 				37BAA8A71F04B4120053401F /* MessageComposer.swift in Sources */,
 				37BAA8A31F04B4120053401F /* WireframeButton.swift in Sources */,
+				564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */,
 				37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
+				564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */,
 				3703E4401F0C5C8700E2F502 /* SettingsViewController.swift in Sources */,
 				37BAA8B11F04B4C90053401F /* ArrayExtensions.swift in Sources */,
 				37BAA8A11F04B4120053401F /* AppController.swift in Sources */,

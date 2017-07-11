@@ -23,7 +23,7 @@ class CodeNameCategoriesModelTests: XCTestCase {
     }
     
     func testDesignatedInitialiser(){
-        let testCodeWordCategory = CodeWordCategory.init(categoryName: "My Category", categoryDesc: "My Desc", categoryWords: ["Cats", "Jewels", "Metals"])
+        let testCodeWordCategory = CodeWordCategory.init(categoryName: "My Category", categoryDesc: "My Desc", categoryWords: ["Cats", "Jewels", "Metals"], categoryImage: "test")
         let testCodeWordCategories = CodeWordCategories.init(categoryObjects: [testCodeWordCategory])
         
         XCTAssert(testCodeWordCategories.categoriesData.count > 0, "Categories initialiser failed.")

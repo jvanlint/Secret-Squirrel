@@ -50,6 +50,7 @@ class CategoryTableViewController: UITableViewController {
         
         cell.lblName.text = categoryObject.categoryName
         cell.lblDescription.text = categoryObject.categoryDesc
+        cell.imgCategory.image=UIImage.init(named: categoryObject.categoryImage)
         
         let perLevel:CGFloat = CGFloat(1.0) / CGFloat(self.categories.count)
         

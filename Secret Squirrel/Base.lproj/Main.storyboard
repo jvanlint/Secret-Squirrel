@@ -67,10 +67,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-o9-gn5" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
-                                <rect key="frame" x="67" y="252" width="240" height="45"/>
+                                <rect key="frame" x="87" y="252" width="200" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="0Uc-7r-1Ke"/>
-                                    <constraint firstAttribute="height" constant="45" id="ALJ-NL-5KC"/>
+                                    <constraint firstAttribute="width" constant="200" id="1mL-2O-D0v"/>
+                                    <constraint firstAttribute="height" constant="45" id="iiU-pT-yhb"/>
                                 </constraints>
                                 <state key="normal" title="It's an Operation">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,10 +91,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwe-21-m2J" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
-                                <rect key="frame" x="67" y="312" width="240" height="45"/>
+                                <rect key="frame" x="87" y="312" width="200" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="NbZ-fJ-2oP"/>
-                                    <constraint firstAttribute="height" constant="45" id="qZe-ek-Dyu"/>
+                                    <constraint firstAttribute="height" constant="45" id="bjq-lf-mgj"/>
+                                    <constraint firstAttribute="width" constant="200" id="y6H-6V-GTa"/>
                                 </constraints>
                                 <state key="normal" title="We've Been Compromised!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,21 +128,21 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72354468199999999" blue="0.4151421501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="h8e-o9-gn5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="3jY-9V-UDH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="3tG-8q-YCo"/>
                             <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Bv-5z-sox"/>
                             <constraint firstItem="6J8-ax-5JE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="GDx-UV-MJj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="irI-36-6Iy" secondAttribute="bottom" id="K3T-Qt-Gtf"/>
+                            <constraint firstItem="lwe-21-m2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M9h-7g-wC2"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Nay-6D-uK5"/>
-                            <constraint firstItem="lwe-21-m2J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="TX2-VA-zVq"/>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="top" secondItem="gnv-G9-yf6" secondAttribute="bottom" constant="33" id="PQq-6b-772"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UIA-2t-KHf"/>
                             <constraint firstItem="gnv-G9-yf6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Wct-qs-tlT"/>
                             <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="XfW-u8-vf8"/>
-                            <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="bDX-za-CBu"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="gmf-io-efX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6J8-ax-5JE" secondAttribute="trailing" constant="123" id="hIh-H7-l4s"/>
                             <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="j2S-8Y-pWY"/>
-                            <constraint firstItem="h8e-o9-gn5" firstAttribute="top" secondItem="gnv-G9-yf6" secondAttribute="bottom" constant="33" id="lXb-zD-LCV"/>
+                            <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jfq-xa-GdX"/>
+                            <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="vHa-xU-Ogw"/>
                             <constraint firstItem="unv-Qi-AlZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yar-ee-1gy"/>
                             <constraint firstItem="6J8-ax-5JE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="ysL-ZO-VsX"/>
                         </constraints>
@@ -150,7 +150,7 @@
                     <navigationItem key="navigationItem" title="Secret Squirrel" id="Oa7-ku-VPz">
                         <barButtonItem key="leftBarButtonItem" image="SettingsIcon" id="ZH9-pT-PwL">
                             <connections>
-                                <segue destination="EUu-LY-ORe" kind="show" id="vC2-B1-yrT"/>
+                                <segue destination="PTN-Nb-7El" kind="show" id="fU9-pt-Uod"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="MsgIcon" id="1r4-4p-2L9">
@@ -169,76 +169,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="872.79999999999995" y="42.728635682158924"/>
-        </scene>
-        <!--Settings View Controller-->
-        <scene sceneID="3Uh-6A-G4C">
-            <objects>
-                <viewController storyboardIdentifier="SettingsSelectScreen" id="EUu-LY-ORe" customClass="SettingsViewController" customModule="Secret_Squirrel" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ogU-n3-BIZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="QnO-Sb-4w2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="aRn-e1-2KG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6B-6T-bOh">
-                                <rect key="frame" x="100" y="92" width="175" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Customise Generator"/>
-                                <connections>
-                                    <segue destination="PTN-Nb-7El" kind="show" id="vzb-mq-HZZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hn-nz-6TF">
-                                <rect key="frame" x="85" y="148" width="205" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pick a theme"/>
-                                <connections>
-                                    <segue destination="Fb9-rT-h5q" kind="show" id="Djq-Hv-Xcr"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bop-u3-YfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1696.8" y="39.130434782608695"/>
-        </scene>
-        <!--Collection View Controller-->
-        <scene sceneID="LHP-DD-M1n">
-            <objects>
-                <collectionViewController id="Fb9-rT-h5q" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="vAl-0Q-6Hi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ejz-CX-h1I">
-                            <size key="itemSize" width="50" height="50"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ckh-Vk-h7b">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </view>
-                            </collectionViewCell>
-                        </cells>
-                        <connections>
-                            <outlet property="dataSource" destination="Fb9-rT-h5q" id="1eV-6j-1hj"/>
-                            <outlet property="delegate" destination="Fb9-rT-h5q" id="Djw-Nd-l45"/>
-                        </connections>
-                    </collectionView>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rRf-6b-3dE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2402" y="44"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0Cp-av-sFP">
@@ -589,7 +519,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="5oX-5r-mlV" customClass="CornerImage" customModule="Secret_Squirrel" customModuleProvider="target">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bigcat" translatesAutoresizingMaskIntoConstraints="NO" id="5oX-5r-mlV" customClass="CornerImage" customModule="Secret_Squirrel" customModuleProvider="target">
                                             <rect key="frame" x="8" y="14" width="60" height="60"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <userDefinedRuntimeAttributes>
@@ -602,6 +532,7 @@
                                 </tableViewCellContentView>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
+                                    <outlet property="imgCategory" destination="5oX-5r-mlV" id="1yE-Lt-7xr"/>
                                     <outlet property="lblDescription" destination="vwb-T2-8lA" id="ooJ-YH-aBk"/>
                                     <outlet property="lblName" destination="ohQ-DI-HaI" id="IqE-v1-xfz"/>
                                 </connections>
@@ -622,7 +553,7 @@
         <image name="MsgIcon" width="22" height="22"/>
         <image name="SettingsIcon" width="22" height="22"/>
         <image name="SquirrelLogo" width="150" height="150"/>
-        <image name="Unknown" width="96" height="60"/>
+        <image name="bigcat" width="88" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="oGV-s9-igk"/>

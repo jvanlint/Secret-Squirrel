@@ -10,6 +10,7 @@
 		3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43D1F0C4F7200E2F502 /* Theme.swift */; };
 		3703E4401F0C5C8700E2F502 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */; };
 		3703E4421F0C6BEC00E2F502 /* CodeNameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */; };
+		371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
 		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		377E0CD01F0CD5970083D03F /* CodeWordCategoryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */; };
 		377E0CD21F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */; };
@@ -429,6 +430,7 @@
 				37BAA8B61F04B5310053401F /* CodeName.swift in Sources */,
 				37BAA8B21F04B4C90053401F /* ArrayExtensions.swift in Sources */,
 				37BAA8C01F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
+				371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

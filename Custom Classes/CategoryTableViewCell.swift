@@ -12,6 +12,7 @@ class CategoryTableViewCell: UITableViewCell {
     
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet weak var imgCategory: UIImageView!
     
     
     override func awakeFromNib() {

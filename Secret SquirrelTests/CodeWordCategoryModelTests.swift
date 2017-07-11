@@ -21,7 +21,7 @@ class CodeWordCategoryModelTests: XCTestCase {
     }
     
     func testDesignatedInitialiser(){
-        let testCodeWordCategory = CodeWordCategory.init(categoryName: "My Category", categoryDesc: "My Desc", categoryWords: ["Cats", "Jewels", "Metals"])
+        let testCodeWordCategory = CodeWordCategory.init(categoryName: "My Category", categoryDesc: "My Desc", categoryWords: ["Cats", "Jewels", "Metals"], categoryImage: "test")
         XCTAssert(testCodeWordCategory.categoryName == "My Category")
         XCTAssert(testCodeWordCategory.categoryDesc == "My Desc")
         XCTAssert(testCodeWordCategory.categoryWords == ["Cats", "Jewels", "Metals"])

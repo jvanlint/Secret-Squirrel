@@ -297,7 +297,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wz-kr-ycu" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="31" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="24.5" width="105" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="105" id="M7p-u0-eAx"/>
@@ -313,17 +313,17 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7f-Cb-CLg">
-                                                <rect key="frame" x="52" y="72.5" width="1" height="50"/>
+                                                <rect key="frame" x="52" y="60" width="1" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="EFH-jn-cTW"/>
                                                     <constraint firstAttribute="width" constant="1" id="m9A-Lv-mfE"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7W-1n-GwQ">
-                                                <rect key="frame" x="2.5" y="133.5" width="100" height="25"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7W-1n-GwQ">
+                                                <rect key="frame" x="2.5" y="115" width="100" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="25" id="H72-Zi-RLn"/>
+                                                    <constraint firstAttribute="height" constant="50" id="H72-Zi-RLn"/>
                                                     <constraint firstAttribute="width" constant="100" id="T9R-1f-17w"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
@@ -370,7 +370,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magnesium" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGH-SV-qSy" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="31" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="24.5" width="105" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="105" id="Xou-uE-opk"/>
@@ -386,18 +386,18 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3r-fe-VAi">
-                                                <rect key="frame" x="52" y="72.5" width="1" height="50"/>
+                                                <rect key="frame" x="52" y="60" width="1" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="LdD-Jb-XW0"/>
                                                     <constraint firstAttribute="width" constant="1" id="yKx-Bf-URC"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkp-mL-NUG">
-                                                <rect key="frame" x="2.5" y="133.5" width="100" height="25"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkp-mL-NUG">
+                                                <rect key="frame" x="2.5" y="115" width="100" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="FhI-dV-D5d"/>
-                                                    <constraint firstAttribute="height" constant="25" id="UTw-QG-dY1"/>
+                                                    <constraint firstAttribute="height" constant="50" id="UTw-QG-dY1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -443,7 +443,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cougar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvl-GT-xd2" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="31" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="24.5" width="105" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="NLb-1T-r2H"/>
@@ -459,17 +459,18 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="33c-op-GoF">
-                                                <rect key="frame" x="52" y="72.5" width="1" height="50"/>
+                                                <rect key="frame" x="52" y="60" width="1" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="1" id="Qtn-zL-nRh"/>
                                                     <constraint firstAttribute="height" constant="50" id="gQY-F5-JXO"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Cats" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9w4-3J-flQ">
-                                                <rect key="frame" x="2.5" y="133.5" width="100" height="25"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Cats" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9w4-3J-flQ">
+                                                <rect key="frame" x="2.5" y="115" width="100" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="Ivp-RA-m7M"/>
+                                                    <constraint firstAttribute="height" constant="50" id="YSK-61-x9o"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

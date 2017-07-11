@@ -36,6 +36,7 @@ class Secret_SquirrelUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
+        /*
         XCUIDevice.shared().orientation = .faceUp
         XCUIDevice.shared().orientation = .faceUp
         
@@ -52,8 +53,20 @@ class Secret_SquirrelUITests: XCTestCase {
         secretSquirrelNavigationBar.buttons["MsgIcon"].tap()
         snapshot("04-SendMsg")
         app.sheets.buttons["Cancel"].tap()
+        */
         
         
+        let app = XCUIApplication()
+        let secretSquirrelNavigationBar = app.navigationBars["Secret Squirrel"]
+        snapshot("01-LandingScreen")
+        secretSquirrelNavigationBar.children(matching: .button).element(boundBy: 0).tap()
+        snapshot("02-Settings")
+        app.otherElements.containing(.navigationBar, identifier:"Customise").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
+        snapshot("03-Categories")
+        app.navigationBars["Category"].buttons["Customise"].tap()
+        app.navigationBars["Customise"].buttons["Secret Squirrel"].tap()
+        secretSquirrelNavigationBar.children(matching: .button).element(boundBy: 1).tap()
+        snapshot("04-Email")
         
         
         

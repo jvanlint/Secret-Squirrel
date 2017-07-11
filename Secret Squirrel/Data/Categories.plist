@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>Image</key>
+		<string>AppIcon</string>
 		<key>Name</key>
 		<string>None</string>
 		<key>Description</key>
@@ -13,6 +15,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>wolf</string>
 		<key>Name</key>
 		<string>Animals</string>
 		<key>Description</key>
@@ -44,6 +48,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>daimyo</string>
 		<key>Name</key>
 		<string>Daimyos</string>
 		<key>Description</key>
@@ -75,6 +81,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>fish</string>
 		<key>Name</key>
 		<string>Haiku Nouns</string>
 		<key>Description</key>
@@ -148,6 +156,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>wave</string>
 		<key>Name</key>
 		<string>Haiku Adjectives</string>
 		<key>Description</key>
@@ -221,6 +231,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>color</string>
 		<key>Name</key>
 		<string>Colors</string>
 		<key>Description</key>
@@ -243,6 +255,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>snake</string>
 		<key>Name</key>
 		<string>Snakes</string>
 		<key>Description</key>
@@ -258,6 +272,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>greekgod</string>
 		<key>Name</key>
 		<string>Greek Gods</string>
 		<key>Description</key>
@@ -281,6 +297,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>jewel</string>
 		<key>Name</key>
 		<string>Jewels</string>
 		<key>Description</key>
@@ -297,6 +315,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>metal</string>
 		<key>Name</key>
 		<string>Metals</string>
 		<key>Description</key>
@@ -328,6 +348,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>planet</string>
 		<key>Name</key>
 		<string>Planets</string>
 		<key>Description</key>
@@ -346,6 +368,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>Image</key>
+		<string>bigcat</string>
 		<key>Name</key>
 		<string>Big Cats</string>
 		<key>Description</key>

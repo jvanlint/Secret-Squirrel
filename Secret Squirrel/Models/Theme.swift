@@ -28,10 +28,12 @@ struct Theme{
 struct Themes{
     var themesList: [Theme]
     
+    // Designated initialiser
     init(themesList: [Theme]){
         self.themesList = themesList
     }
     
+    // Convenience initialiser
     init(){
         var themesArray:[Theme] = []
         

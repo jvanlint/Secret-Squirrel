@@ -43,13 +43,19 @@ class CategoryTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "categoryCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "categoryCell", for: indexPath) as! CategoryTableViewCell
 
         let categoryObject:CodeWordCategory = categories[indexPath.row]
 
         
-        cell.textLabel?.text = categoryObject.categoryName
-        cell.detailTextLabel?.text = categoryObject.categoryDesc
+        cell.lblName.text = categoryObject.categoryName
+        cell.lblDescription.text = categoryObject.categoryDesc
+        cell.imgCategory.image=UIImage.init(named: categoryObject.categoryImage)
+        
+        let perLevel:CGFloat = CGFloat(1.0) / CGFloat(self.categories.count)
+        
+        cell.backgroundColor = UIColor.init(red: 155.0/255.0, green: 90.0/255.0, blue: 182.0/255.0, alpha: (perLevel + CGFloat(indexPath.row) * perLevel))
+        
         
         if categoryObject.categoryName==selectedCategory{
             cell.accessoryType = .checkmark

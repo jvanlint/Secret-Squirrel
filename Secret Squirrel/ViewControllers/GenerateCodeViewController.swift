@@ -119,16 +119,6 @@ class GenerateCodeViewController: UIViewController {
         let newCodeName = CodeName()
         lblCodeName.text = newCodeName.codeNameString
         
-        //Test code
-        let newTheme = Themes()
-        for i in newTheme.themesList{
-            let test = i.name
-            print("Theme Name:\(test)")
-        }
-        
-        
-        //*****
-        
         let bgColor = UIColor.randomFlatColor()
         
         view.backgroundColor = bgColor

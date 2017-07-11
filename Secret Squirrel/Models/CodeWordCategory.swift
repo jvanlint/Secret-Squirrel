@@ -14,14 +14,16 @@ struct CodeWordCategory {
     let categoryName: String
     let categoryDesc: String
     let categoryWords: [String]
+    let categoryImage: String
     
     // MARK: - Initializers
     
     // Designated initializer
-    init(categoryName:String, categoryDesc: String, categoryWords: [String]) {
+    init(categoryName:String, categoryDesc: String, categoryWords: [String], categoryImage: String) {
         self.categoryName = categoryName
         self.categoryDesc = categoryDesc
         self.categoryWords = categoryWords
+        self.categoryImage = categoryImage
     }
 }
 
@@ -49,9 +51,10 @@ struct CodeWordCategories {
                 //print("Value: \(index["Name"])")
                 let name = index["Name"] as! String
                 let desc = index["Description"] as! String
+                let imageName = index["Image"] as! String
                 let words:[String] = index["Words"] as! [String]
                 
-                let object=CodeWordCategory.init(categoryName: name, categoryDesc: desc, categoryWords: words)
+                let object=CodeWordCategory.init(categoryName: name, categoryDesc: desc, categoryWords: words, categoryImage: imageName)
                 categoryArray.append(object)
             }
             

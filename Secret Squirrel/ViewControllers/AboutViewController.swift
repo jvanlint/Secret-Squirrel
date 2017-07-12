@@ -15,7 +15,7 @@ class AboutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblVersion.text = AppController.sharedInstance.appVersion()
+        lblVersion.text = AppController.sharedInstance.appVersion() + " (" + AppController.sharedInstance.appBuildNumber() + ")"
         // Do any additional setup after loading the view.
     }
 

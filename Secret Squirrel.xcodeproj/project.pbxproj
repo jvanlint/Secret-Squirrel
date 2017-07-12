@@ -11,6 +11,8 @@
 		3703E4421F0C6BEC00E2F502 /* CodeNameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */; };
 		371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
 		371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */; };
+		371C9D441F15CB06006FEA0E /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */; };
+		371C9D461F15CB1B006FEA0E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C9D451F15CB1B006FEA0E /* AboutViewController.swift */; };
 		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		377E0CD01F0CD5970083D03F /* CodeWordCategoryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */; };
 		377E0CD21F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */; };
@@ -74,6 +76,8 @@
 		3703E43D1F0C4F7200E2F502 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameModelTests.swift; sourceTree = "<group>"; };
 		371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
+		371C9D451F15CB1B006FEA0E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCategoryModelTests.swift; sourceTree = "<group>"; };
 		377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameCategoriesModelTests.swift; sourceTree = "<group>"; };
 		377E0CD31F0DA2540083D03F /* ThemeModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModelTests.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
 				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
 				371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */,
+				371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */,
+				371C9D451F15CB1B006FEA0E /* AboutViewController.swift */,
 			);
 			name = "View Controllers";
 			path = ViewControllers;
@@ -398,6 +404,8 @@
 				371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */,
 				37BAA8A31F04B4120053401F /* WireframeButton.swift in Sources */,
 				564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */,
+				371C9D461F15CB1B006FEA0E /* AboutViewController.swift in Sources */,
+				371C9D441F15CB06006FEA0E /* ThemesTableViewController.swift in Sources */,
 				37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
 				564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */,
 				37BAA8B11F04B4C90053401F /* ArrayExtensions.swift in Sources */,

@@ -31,7 +31,7 @@ extension UIColor {
         return UIColor(r: 22, g: 160, b: 133)
     }
 
-    class func c()->UIColor {
+    class func emeraldColor()->UIColor {
         return UIColor(r: 46, g: 204, b: 113)
     }
 
@@ -66,6 +66,10 @@ extension UIColor {
     class func sunflowerColor()->UIColor {
         return UIColor(r:241, g:196, b:15)
     }
+    
+    class func orangeFlatUIColor()->UIColor {
+        return UIColor(r:243, g:156, b:18)
+    }
 
     class func carrotColor()->UIColor {
         return UIColor(r:230, g:126, b:34)
@@ -82,7 +86,6 @@ extension UIColor {
     class func pomergranateColor()->UIColor {
         return UIColor(r:192, g:57, b:43)
     }
-
     class func cloudsColor()->UIColor {
         return UIColor(r:236, g:240, b:241)
     }

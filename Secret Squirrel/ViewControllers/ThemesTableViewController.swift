@@ -42,7 +42,7 @@ class ThemesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return tableDataSource.count
+        return self.tableDataSource.count
     }
 
     
@@ -54,9 +54,34 @@ class ThemesTableViewController: UITableViewController {
         cell.lblThemeName.text = themeObject.name
         cell.lblThemeDescription.text = themeObject.description
 
+        
+        //let perLevel:CGFloat = CGFloat(1.0) / CGFloat(self.tableDataSource.count)
+        //let alphaValue = perLevel + CGFloat(indexPath.row) * perLevel
+ 
+        
+        if indexPath.row % 2 == 1{
+            cell.backgroundColor = UIColor.carrotColor()
+        } else {
+            cell.backgroundColor = UIColor.pumpkinColor()
+        }
+        
+        
+        //cell.backgroundColor = UIColor.alizarinColor().withAlphaComponent(alphaValue)
+        
+      
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let themeObject:Theme = tableDataSource[indexPath.row]
+        
+        AppController.sharedInstance.prefix = themeObject.categories.0
+        AppController.sharedInstance.middle = themeObject.categories.1
+        AppController.sharedInstance.suffix = themeObject.categories.2
+        
+        //_ = navigationController?.popViewController(animated: true)
+        _ = navigationController?.popToRootViewController(animated: true)
+    }
 
     /*
     // Override to support conditional editing of the table view.

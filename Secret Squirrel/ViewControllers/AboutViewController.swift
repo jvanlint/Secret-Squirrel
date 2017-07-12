@@ -20,6 +20,13 @@ class AboutViewController: UIViewController {
 
 
     @IBAction func didTouchWebSiteButton(_ sender: Any) {
+        let url = URL(string: "http://www.deadfrogstudios.com")!
+        
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    
+    func dialogBox()
+    {
         let alertController = UIAlertController(title: "Destructive", message: "Simple alertView demo with Destructive and Ok.", preferredStyle: UIAlertControllerStyle.alert) //Replace UIAlertControllerStyle.Alert by UIAlertControllerStyle.alert
         let DestructiveAction = UIAlertAction(title: "Destructive", style: UIAlertActionStyle.destructive) {
             (result : UIAlertAction) -> Void in
@@ -38,3 +45,5 @@ class AboutViewController: UIViewController {
     }
 
 }
+
+

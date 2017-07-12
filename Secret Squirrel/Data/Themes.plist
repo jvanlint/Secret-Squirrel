@@ -18,20 +18,6 @@
 	</dict>
 	<dict>
 		<key>themeName</key>
-		<string>Jewel Animals</string>
-		<key>themeDescription</key>
-		<string>Jewels placed before animal names.</string>
-		<key>themeType</key>
-		<string>Application Themes</string>
-		<key>prefix</key>
-		<string>Jewels</string>
-		<key>middle</key>
-		<string></string>
-		<key>suffix</key>
-		<string>Animals</string>
-	</dict>
-	<dict>
-		<key>themeName</key>
 		<string>Haiku</string>
 		<key>themeDescription</key>
 		<string>Adjectives placed before nouns Haiku style.</string>

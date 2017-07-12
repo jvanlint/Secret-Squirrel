@@ -26,6 +26,7 @@ class ThemesTableViewController: UITableViewController {
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        //self.tableView.backgroundColor = UIColor.turquoiseColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -60,13 +61,13 @@ class ThemesTableViewController: UITableViewController {
  
         
         if indexPath.row % 2 == 1{
-            cell.backgroundColor = UIColor.carrotColor()
+            cell.backgroundColor = UIColor.midnightBlueColor().withAlphaComponent(0.90)
         } else {
-            cell.backgroundColor = UIColor.pumpkinColor()
+            cell.backgroundColor = UIColor.midnightBlueColor().withAlphaComponent(1.0)
         }
         
         
-        //cell.backgroundColor = UIColor.alizarinColor().withAlphaComponent(alphaValue)
+       // cell.backgroundColor = UIColor.pomergranateColor().withAlphaComponent(alphaValue)
         
       
         return cell

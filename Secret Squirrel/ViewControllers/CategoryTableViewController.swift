@@ -26,6 +26,7 @@ class CategoryTableViewController: UITableViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
+        
         categories = CodeWordCategories().categoriesData
         
         determineCategoryPosition()
@@ -83,6 +84,7 @@ class CategoryTableViewController: UITableViewController {
         determineCategoryPosition()
         AppController.sharedInstance.saveCategoryPreferencesToDisk()
         tableView.reloadData()
+        _ = navigationController?.popViewController(animated: true)
     }
     
     func determineCategoryPosition(){

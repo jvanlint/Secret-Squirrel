@@ -118,7 +118,7 @@
                                     <action selector="didTouchGenerateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMi-P8-Wvx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Code Here To Display" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-G9-yf6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Code Here To Display" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-G9-yf6">
                                 <rect key="frame" x="16" y="124" width="343" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="iDr-bB-rbq"/>
@@ -189,10 +189,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2v-Wt-Aa3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1lG-L1-E5z">
-                                        <rect key="frame" x="-139" y="8" width="273" height="283"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Dead Frog Studios" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVO-md-Elf">
                                         <rect key="frame" x="228.5" y="107.5" width="118.5" height="16.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
@@ -205,11 +201,20 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1lG-L1-E5z">
+                                        <rect key="frame" x="0.0" y="71" width="160" height="129"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="129" id="5Ky-i7-Htj"/>
+                                            <constraint firstAttribute="width" constant="160" id="whk-KL-Q3Y"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="oVO-md-Elf" secondAttribute="trailing" constant="28" id="Bq1-dn-N74"/>
+                                    <constraint firstAttribute="bottom" secondItem="1lG-L1-E5z" secondAttribute="bottom" id="OhO-Tp-W7t"/>
                                     <constraint firstItem="oVO-md-Elf" firstAttribute="top" secondItem="Hc1-Lg-RO6" secondAttribute="bottom" constant="-3" id="ip9-Ft-EGP"/>
+                                    <constraint firstItem="1lG-L1-E5z" firstAttribute="leading" secondItem="e2v-Wt-Aa3" secondAttribute="leading" id="kZG-wP-7aR"/>
                                     <constraint firstAttribute="trailing" secondItem="Hc1-Lg-RO6" secondAttribute="trailing" constant="28" id="xac-Bj-sUj"/>
                                 </constraints>
                             </view>
@@ -253,7 +258,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k3q-f6-DYz" id="xMx-el-Dtn">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Customise Code Name Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPB-oI-zTn">
@@ -273,7 +278,7 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MMB-RY-Xar" id="iMb-9B-gPn">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select a Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWp-hZ-fOd">
@@ -293,7 +298,7 @@
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1iC-z2-Xys" id="iRc-EH-VAR">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Secret Squirrel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hn7-nS-hcj">
@@ -322,43 +327,48 @@
             </objects>
             <point key="canvasLocation" x="2412" y="121"/>
         </scene>
-        <!--Themes Table View Controller-->
+        <!--Themes-->
         <scene sceneID="8vh-bO-uep">
             <objects>
-                <tableViewController id="HNi-hn-9gy" customClass="ThemesTableViewController" customModule="Secret_Squirrel" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="83" sectionHeaderHeight="28" sectionFooterHeight="28" id="5vP-1V-bTe">
+                <tableViewController title="Themes" id="HNi-hn-9gy" customClass="ThemesTableViewController" customModule="Secret_Squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="5vP-1V-bTe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="themeCell" rowHeight="83" id="kei-Ox-RH0" customClass="ThemeTableViewCell" customModule="Secret_Squirrel" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="83"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="themeCell" rowHeight="100" id="kei-Ox-RH0" customClass="ThemeTableViewCell" customModule="Secret_Squirrel" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kei-Ox-RH0" id="495-IR-3f2">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obn-U4-LTW">
-                                            <rect key="frame" x="20" y="12" width="335" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obn-U4-LTW" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="12" width="335" height="29"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="ujb-rJ-S9e"/>
+                                                <constraint firstAttribute="height" constant="29" id="ujb-rJ-S9e"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
-                                            <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="shadowOffset" width="1" height="1"/>
+                                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is extra long text to see if it will wrap in the label." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTZ-w4-bk8">
-                                            <rect key="frame" x="20" y="32" width="335" height="45"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is extra long text to see if it will wrap in the label." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTZ-w4-bk8">
+                                            <rect key="frame" x="20" y="49" width="335" height="45"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="45" id="CXH-p0-BJy"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
-                                            <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="shadowOffset" width="1" height="1"/>
+                                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="shadowOffset" width="0.0" height="1"/>
                                         </label>
                                     </subviews>
                                     <constraints>
@@ -389,10 +399,10 @@
             </objects>
             <point key="canvasLocation" x="3256.8000000000002" y="-646.32683658170924"/>
         </scene>
-        <!--About View Controller-->
+        <!--About-->
         <scene sceneID="Ygr-sm-4Li">
             <objects>
-                <viewController id="aJF-hU-59Z" customClass="AboutViewController" customModule="Secret_Squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="About" id="aJF-hU-59Z" customClass="AboutViewController" customModule="Secret_Squirrel" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GUo-ze-Nau"/>
                         <viewControllerLayoutGuide type="bottom" id="QWr-ZN-EAJ"/>

@@ -18,20 +18,6 @@
 	</dict>
 	<dict>
 		<key>themeName</key>
-		<string>Jewel Animals</string>
-		<key>themeDescription</key>
-		<string>Jewels placed before animal names.</string>
-		<key>themeType</key>
-		<string>Application Themes</string>
-		<key>prefix</key>
-		<string>Jewels</string>
-		<key>middle</key>
-		<string></string>
-		<key>suffix</key>
-		<string>Animals</string>
-	</dict>
-	<dict>
-		<key>themeName</key>
 		<string>Haiku</string>
 		<key>themeDescription</key>
 		<string>Adjectives placed before nouns Haiku style.</string>
@@ -70,7 +56,7 @@
 		<key>middle</key>
 		<string></string>
 		<key>suffix</key>
-		<string>Gods</string>
+		<string>Greek Gods</string>
 	</dict>
 	<dict>
 		<key>themeName</key>
@@ -112,11 +98,11 @@
 		<key>middle</key>
 		<string></string>
 		<key>suffix</key>
-		<string>BigCats</string>
+		<string>Big Cats</string>
 	</dict>
 	<dict>
 		<key>themeName</key>
-		<string>Planet of the Gods</string>
+		<string>Planet of the Color Gods</string>
 		<key>themeDescription</key>
 		<string>Planet names mixed with colors and Greek Gods.</string>
 		<key>themeType</key>
@@ -124,23 +110,9 @@
 		<key>prefix</key>
 		<string>Planets</string>
 		<key>middle</key>
-		<string></string>
+		<string>Colors</string>
 		<key>suffix</key>
 		<string>Greek Gods</string>
-	</dict>
-	<dict>
-		<key>themeName</key>
-		<string>My Theme</string>
-		<key>themeDescription</key>
-		<string>My custom theme</string>
-		<key>themeType</key>
-		<string>User Created Theme</string>
-		<key>prefix</key>
-		<string>Jewels</string>
-		<key>middle</key>
-		<string>Metal</string>
-		<key>suffix</key>
-		<string>Animals</string>
 	</dict>
 </array>
 </plist>

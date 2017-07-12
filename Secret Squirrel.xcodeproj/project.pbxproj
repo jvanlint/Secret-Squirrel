@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43D1F0C4F7200E2F502 /* Theme.swift */; };
-		3703E4401F0C5C8700E2F502 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */; };
 		3703E4421F0C6BEC00E2F502 /* CodeNameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */; };
 		371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
+		371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */; };
 		375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 		377E0CD01F0CD5970083D03F /* CodeWordCategoryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */; };
 		377E0CD21F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */; };
@@ -72,8 +72,8 @@
 
 /* Begin PBXFileReference section */
 		3703E43D1F0C4F7200E2F502 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameModelTests.swift; sourceTree = "<group>"; };
+		371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		377E0CCF1F0CD5970083D03F /* CodeWordCategoryModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCategoryModelTests.swift; sourceTree = "<group>"; };
 		377E0CD11F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameCategoriesModelTests.swift; sourceTree = "<group>"; };
 		377E0CD31F0DA2540083D03F /* ThemeModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModelTests.swift; sourceTree = "<group>"; };
@@ -233,7 +233,7 @@
 				37BAA8B81F04B5DA0053401F /* GenerateCodeViewController.swift */,
 				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
 				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
-				3703E43F1F0C5C8700E2F502 /* SettingsViewController.swift */,
+				371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */,
 			);
 			name = "View Controllers";
 			path = ViewControllers;
@@ -395,11 +395,11 @@
 				37BAA8AD1F04B4C90053401F /* UIColorExtensions.swift in Sources */,
 				37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */,
 				37BAA8A71F04B4120053401F /* MessageComposer.swift in Sources */,
+				371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */,
 				37BAA8A31F04B4120053401F /* WireframeButton.swift in Sources */,
 				564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */,
 				37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
 				564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */,
-				3703E4401F0C5C8700E2F502 /* SettingsViewController.swift in Sources */,
 				37BAA8B11F04B4C90053401F /* ArrayExtensions.swift in Sources */,
 				37BAA8A11F04B4120053401F /* AppController.swift in Sources */,
 				37BAA8B51F04B5310053401F /* CodeName.swift in Sources */,

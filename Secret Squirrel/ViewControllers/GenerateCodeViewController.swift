@@ -119,6 +119,7 @@ class GenerateCodeViewController: UIViewController {
         let newCodeName = CodeName()
         lblCodeName.text = newCodeName.codeNameString
         
+        
         let bgColor = UIColor.randomFlatColor()
         
         view.backgroundColor = bgColor

@@ -54,7 +54,7 @@ class AppController: NSObject {
     /// - returns: A formatted string containing the version and build number of the application.
     func appVersionString() -> String{
         
-        let versionString:String = "Version:\(appVersion())\nBuild:\(appBuildNumber())"
+        let versionString:String = "Version:\(appVersion())\nBuild:\(appBuildNumber())"     //eg. Version:1.0.1 Build:(20)
         return versionString
     }
     

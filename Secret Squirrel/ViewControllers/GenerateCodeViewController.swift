@@ -87,6 +87,8 @@ class GenerateCodeViewController: UIViewController {
             lblProject.text="PROJECT"
             btnProject.setTitle("It's an Operation", for: .normal)
         }
+        
+        generateNewProjectCode()
     }
     
     //MARK: - Messaging Functions

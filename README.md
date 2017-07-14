@@ -5,9 +5,9 @@
 
 Secret Squirrel is an iOS app developed in Swift 3.0 that generates up to three(3) word code names for projects or other activities. It offers the ability to customise the code name by changing the category a word can come from. Once a code has been generated the user can email or SMS the new code to a colleague or friend.
 
-### Screenshot
+### Screenshots
 
-<img src="http://jasonvanlint.com/public/Secret_Squirrel/screenshots/iPhone6-01-LandingScreen.png" width="300">
+<img src="http://jasonvanlint.com/public/Secret_Squirrel/screenshots/iPhone6-01-LandingScreen.png" width="300"> <img src="http://jasonvanlint.com/public/Secret_Squirrel/screenshots/iPhone6-02-SettingsScreen.png" width="300"> <img src="http://jasonvanlint.com/public/Secret_Squirrel/screenshots/iPhone6-03-CategoryScreen.png" width="300"> <img src="http://jasonvanlint.com/public/Secret_Squirrel/screenshots/iPhone6-04-SelectCategoryScreen.png" width="300">
 
 ### App Stores
 

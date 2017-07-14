@@ -7,7 +7,7 @@ Secret Squirrel is an iOS app developed in Swift 3.0 that generates up to three(
 
 ### Screenshot
 
-![Screenshot iOS](http://url/screenshot-appname-ios.png "screenshot iOS")
+<img src="http://jasonvanlint.com/public/Secret_Squirrel/screenshots/iPhone6-01-LandingScreen.png" width="300">
 
 ### App Stores
 

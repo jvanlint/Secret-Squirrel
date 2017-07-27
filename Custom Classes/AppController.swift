@@ -17,11 +17,7 @@ class AppController: NSObject {
     
     //MARK: - Variable Declarations
     
-    var prefix: String = "Colors"
-    var middle: String = "Metals"
-    var suffix: String = "Snakes"
-    
-    var currentThemeIndex = 2
+   var currentDashboardIndex = 0
     
     //MARK: - App Versioning Methods
     
@@ -60,35 +56,20 @@ class AppController: NSObject {
     
     //MARK: - App Preferences Management
     
-    func saveCategoryPreferencesToDisk(){
+    func savePreferencesToDisk(){
         let defaults = UserDefaults.standard
         
-        defaults.set(self.prefix, forKey: "Prefix")
-        defaults.set(self.middle, forKey: "Middle")
-        defaults.set(self.suffix, forKey: "Suffix")
+        defaults.set(self.currentDashboardIndex, forKey: "CurrentDashboardIndex")
         
     }
     
-    func loadCategoryPreferencesFromDisk(){
+    func loadPreferencesFromDisk(){
         let defaults = UserDefaults.standard
         
-        if let prefix = defaults.string(forKey: "Prefix") {
-            self.prefix = prefix
-        } else {
-            self.prefix = "Colors"
-        }
+        let defaultIndex = defaults.integer(forKey: "CurrentDashboardIndex")
         
-        if let middle = defaults.string(forKey: "Middle"){
-            self.middle = middle
-        }else{
-            self.middle = "Metals"
-        }
+        self.currentDashboardIndex = defaultIndex
         
-        if let suffix = defaults.string(forKey: "Suffix"){
-            self.suffix = suffix
-        }else{
-            self.suffix = "Snakes"
-        }
         
     }
 }

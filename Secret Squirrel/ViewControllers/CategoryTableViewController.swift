@@ -105,5 +105,17 @@ class CategoryTableViewController: UITableViewController {
             selectedCategory = AppController.sharedInstance.prefix
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == "CategoryDetailSegue"{
+            let vc = segue.destination as! CategoryDetailTableViewController
+//            let indexPath = self.tableView.indexPathForSelectedRow {
+//                let selectedCategory = categories[indexPath.row]
+//                
+//            }
+            vc.categoryName = "Animals"
+        }
+    }
 
 }

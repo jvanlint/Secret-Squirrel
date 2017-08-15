@@ -168,6 +168,7 @@
                         <outlet property="lblCodeName" destination="gnv-G9-yf6" id="GHH-6a-Vhb"/>
                         <outlet property="lblProject" destination="6J8-ax-5JE" id="tix-B8-clI"/>
                         <outlet property="lblVersion" destination="unv-Qi-AlZ" id="xL3-oO-44q"/>
+                        <outlet property="squirrelImage" destination="irI-36-6Iy" id="7Sc-cj-1qU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

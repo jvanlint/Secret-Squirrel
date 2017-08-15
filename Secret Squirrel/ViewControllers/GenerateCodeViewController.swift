@@ -20,13 +20,14 @@ class GenerateCodeViewController: UIViewController {
     let messageObject = MessageComposer()                //Instance of MessageComposer declared at a scope that can be seen
                                                         //throughout the lifetime of the View Controller 
                                                         //(so that the delegate callback can be invoked when appropriate).
-    
+    var timer: Timer!
     //MARK: - IBOutlets
     
     @IBOutlet weak var lblCodeName: UILabel!            //Label displaying the generated code name
     @IBOutlet weak var lblVersion: UILabel!             //App version label
     @IBOutlet weak var lblProject: UILabel!             //Label displaying the text Project or Operation
     @IBOutlet weak var btnProject: WireFrameButton!     //The button switching between Project and Operation
+    @IBOutlet weak var squirrelImage: UIImageView!
     
     //MARK: - View Life Cycle
     
@@ -35,6 +36,8 @@ class GenerateCodeViewController: UIViewController {
         super.viewDidLoad()
        
         updateAppVersionLabel()                         //Update the version number string.
+        
+        timer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(shakeSquirrel), userInfo: nil, repeats: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -42,6 +45,9 @@ class GenerateCodeViewController: UIViewController {
         generateNewProjectCode()
     }
     
+    func shakeSquirrel(){
+        squirrelImage.shake()
+    }
     
     //MARK: - User Interaction Methods
     

@@ -56,6 +56,7 @@
 		56370F4A1F07A4070008B2EC /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56370F491F07A4070008B2EC /* SnapshotHelper.swift */; };
 		564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
 		564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE971F13A69100F4CAB4 /* CornerImage.swift */; };
+		56AFDFEB1F42771600D566C7 /* CategoryDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */; };
 		56E19E801F09245B00D9F35D /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 /* End PBXBuildFile section */
 
@@ -461,6 +462,7 @@
 				375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */,
 				37BAA8B61F04B5310053401F /* CodeName.swift in Sources */,
 				37BAA8B21F04B4C90053401F /* ArrayExtensions.swift in Sources */,
+				56AFDFEB1F42771600D566C7 /* CategoryDetailTableViewController.swift in Sources */,
 				37BAA8C01F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
 				371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */,
 			);

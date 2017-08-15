@@ -10,15 +10,15 @@ import UIKit
 
 class CategoryDetailTableViewController: UITableViewController {
     
-    var categoryName = "Animals"
+    var categoryName = "Test"
     var dataSource = ["Test", "Test2"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let categoryData = CodeWordCategories()
-        dataSource = categoryData.arrayOfWords(forCategory: categoryName)
-
+        self.dataSource = categoryData.arrayOfWords(forCategory: self.categoryName)
+        navigationItem.title=categoryName
     }
 
     // MARK: - Table view data source
@@ -38,7 +38,9 @@ class CategoryDetailTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "categoryDetailCell", for: indexPath)
 
         // Configure the cell...
-
+        let label = cell.viewWithTag(100) as! UILabel
+        label.text = dataSource[indexPath.row]
+    
         return cell
     }
 

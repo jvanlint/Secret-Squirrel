@@ -70,7 +70,8 @@ class CategoryTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
-        performSegue(withIdentifier: "CategoryDetailSegue", sender: self)
+        
+        performSegue(withIdentifier: "CategoryDetailSegue", sender: indexPath)
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -110,11 +111,10 @@ class CategoryTableViewController: UITableViewController {
 
         if segue.identifier == "CategoryDetailSegue"{
             let vc = segue.destination as! CategoryDetailTableViewController
-//            let indexPath = self.tableView.indexPathForSelectedRow {
-//                let selectedCategory = categories[indexPath.row]
-//                
-//            }
-            vc.categoryName = "Animals"
+            if let index = sender as? IndexPath{
+                let selectedCategory = categories[index.row]
+                vc.categoryName = selectedCategory.categoryName
+            }
         }
     }
 

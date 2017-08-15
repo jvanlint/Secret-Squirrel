@@ -122,9 +122,11 @@ class GenerateCodeViewController: UIViewController {
         lblCodeName.text = newCodeName.codeNameString
         
         
+
         let bgColor = UIColor.randomFlatColor()
         
         view.backgroundColor = bgColor
+ 
         lblCodeName.textColor = UIColor.contrastColor(color: bgColor)
         
         if lblCodeName.textColor == UIColor.black{
@@ -132,6 +134,11 @@ class GenerateCodeViewController: UIViewController {
         else{
             lblCodeName.shadowColor = UIColor.black
         }
+        
+        lblCodeName.popIn()
+        //lblProject.popIn()
+        lblProject.bounceIn(from: .left)
+        
     }
     
     func updateAppVersionLabel(){

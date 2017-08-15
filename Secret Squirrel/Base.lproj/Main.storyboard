@@ -190,13 +190,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Dead Frog Studios" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVO-md-Elf">
-                                        <rect key="frame" x="228.5" y="107.5" width="118.5" height="16.5"/>
+                                        <rect key="frame" x="228" y="108" width="119" height="17"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secret Squirrel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hc1-Lg-RO6">
-                                        <rect key="frame" x="213.5" y="83" width="133.5" height="27.5"/>
+                                        <rect key="frame" x="213" y="83" width="134" height="28"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -422,7 +422,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECRET SQUIRREL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hps-Ko-f6I">
-                                        <rect key="frame" x="65.5" y="198" width="244" height="28"/>
+                                        <rect key="frame" x="66" y="198" width="244" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="244" id="5QG-C2-i4d"/>
                                             <constraint firstAttribute="height" constant="28" id="9OS-5Y-0Tg"/>
@@ -467,7 +467,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Hp-mp-xLS">
-                                        <rect key="frame" x="160" y="282" width="55.5" height="22"/>
+                                        <rect key="frame" x="160" y="282" width="56" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="fay-AU-ZgF"/>
                                         </constraints>
@@ -476,7 +476,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0.2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Sn-Wy-xdM">
-                                        <rect key="frame" x="127.5" y="306" width="120" height="22"/>
+                                        <rect key="frame" x="128" y="306" width="120" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="R4I-gl-tDz"/>
                                             <constraint firstAttribute="width" constant="120" id="THR-2p-a89"/>
@@ -625,13 +625,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prefix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1x4-CI-XNv">
-                                                <rect key="frame" x="35.5" y="0.0" width="34.5" height="19.5"/>
+                                                <rect key="frame" x="35" y="0.0" width="35" height="20"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wz-kr-ycu" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="24.5" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="25" width="105" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="105" id="M7p-u0-eAx"/>
@@ -655,7 +655,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7W-1n-GwQ">
-                                                <rect key="frame" x="2.5" y="115" width="100" height="50"/>
+                                                <rect key="frame" x="3" y="115" width="100" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="H72-Zi-RLn"/>
                                                     <constraint firstAttribute="width" constant="100" id="T9R-1f-17w"/>
@@ -665,7 +665,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-d7-W03" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="2.5" y="170" width="100" height="30"/>
+                                                <rect key="frame" x="3" y="170" width="100" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="0RQ-3r-XGR"/>
                                                     <constraint firstAttribute="width" constant="100" id="cgm-e8-P2Y"/>
@@ -698,13 +698,13 @@
                                         <rect key="frame" x="119" y="0.0" width="105" height="200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrX-25-50t">
-                                                <rect key="frame" x="30.5" y="0.0" width="44.5" height="19.5"/>
+                                                <rect key="frame" x="30" y="0.0" width="45" height="20"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magnesium" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGH-SV-qSy" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="24.5" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="25" width="105" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="105" id="Xou-uE-opk"/>
@@ -728,7 +728,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkp-mL-NUG">
-                                                <rect key="frame" x="2.5" y="115" width="100" height="50"/>
+                                                <rect key="frame" x="3" y="115" width="100" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="FhI-dV-D5d"/>
                                                     <constraint firstAttribute="height" constant="50" id="UTw-QG-dY1"/>
@@ -738,7 +738,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="who-A2-aT9" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="2.5" y="170" width="100" height="30"/>
+                                                <rect key="frame" x="3" y="170" width="100" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="8rT-qq-rtz"/>
                                                     <constraint firstAttribute="width" constant="100" id="g7a-1q-Ubb"/>
@@ -771,13 +771,13 @@
                                         <rect key="frame" x="238" y="0.0" width="105" height="200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suffix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HI-IG-DRA">
-                                                <rect key="frame" x="35.5" y="0.0" width="34" height="19.5"/>
+                                                <rect key="frame" x="36" y="0.0" width="34" height="20"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cougar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvl-GT-xd2" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="24.5" width="105" height="30"/>
+                                                <rect key="frame" x="0.0" y="25" width="105" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="NLb-1T-r2H"/>
@@ -801,7 +801,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Cats" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9w4-3J-flQ">
-                                                <rect key="frame" x="2.5" y="115" width="100" height="50"/>
+                                                <rect key="frame" x="3" y="115" width="100" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="Ivp-RA-m7M"/>
                                                     <constraint firstAttribute="height" constant="50" id="YSK-61-x9o"/>
@@ -811,7 +811,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhE-YN-exQ" customClass="WireFrameButton" customModule="Secret_Squirrel" customModuleProvider="target">
-                                                <rect key="frame" x="2.5" y="170" width="100" height="30"/>
+                                                <rect key="frame" x="3" y="170" width="100" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="Edf-C9-3Mg"/>
                                                     <constraint firstAttribute="height" constant="30" id="hxJ-ft-WU8"/>
@@ -977,7 +977,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8P-DN-cOX">
-                                            <rect key="frame" x="20" y="11" width="335" height="32.5"/>
+                                            <rect key="frame" x="20" y="11" width="335" height="33"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>

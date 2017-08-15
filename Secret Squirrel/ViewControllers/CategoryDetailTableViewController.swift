@@ -30,6 +30,8 @@ class CategoryDetailTableViewController: UITableViewController {
                 if let field = alertController.textFields?[0] {
                     // store your data
                     self.dataSource.append(field.text!)
+                    // Write code to persist data.
+                    
                     self.tableView.reloadData()
                 } else {
                     // user did not fill field

@@ -12,12 +12,16 @@ import Social
 class AboutViewController: UIViewController {
 
     @IBOutlet weak var lblVersion: UILabel!
+    @IBOutlet weak var squirrelImage: UIImageView!
+    @IBOutlet weak var lblSecretSquirrel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         lblVersion.text = AppController.sharedInstance.appVersion() + " (" + AppController.sharedInstance.appBuildNumber() + ")"
         // Do any additional setup after loading the view.
+        
     }
+    
 
 
     @IBAction func didTouchWebSiteButton(_ sender: Any) {

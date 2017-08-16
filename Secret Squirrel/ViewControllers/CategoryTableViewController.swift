@@ -57,14 +57,21 @@ class CategoryTableViewController: UITableViewController {
         
         cell.backgroundColor = UIColor.init(red: 155.0/255.0, green: 90.0/255.0, blue: 182.0/255.0, alpha: (perLevel + CGFloat(indexPath.row) * perLevel))
         
-        
+        // This code needs to change to show a custom checkmark.
+        /*
         if categoryObject.categoryName==selectedCategory{
             cell.accessoryType = .checkmark
         }else{
             cell.accessoryType = .none
         }
+        */
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "CategoryDetailSegue", sender: indexPath)
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -97,6 +104,17 @@ class CategoryTableViewController: UITableViewController {
             selectedCategory = AppController.sharedInstance.suffix
         default:
             selectedCategory = AppController.sharedInstance.prefix
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == "CategoryDetailSegue"{
+            let vc = segue.destination as! CategoryDetailTableViewController
+            if let index = sender as? IndexPath{
+                let selectedCategory = categories[index.row]
+                vc.categoryName = selectedCategory.categoryName
+            }
         }
     }
 

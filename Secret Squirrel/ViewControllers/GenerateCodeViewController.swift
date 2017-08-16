@@ -132,9 +132,8 @@ class GenerateCodeViewController: UIViewController {
         let currentBgColor = self.bgView.backgroundColor!
         let newBgColor = UIColor.randomFlatColor()
         
-        self.bgView.fade(fromColor: currentBgColor, toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
-        //self.bgView.backgroundColor = bgColor
-        //self.bgView.fadeIn(duration: 0.5, delay: 0.0, completion: nil)
+        self.bgView.fadeColor(fromColor: currentBgColor, toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
+
  
         lblCodeName.textColor = UIColor.contrastColor(color: newBgColor)
         
@@ -145,9 +144,6 @@ class GenerateCodeViewController: UIViewController {
         }
         
         lblCodeName.popIn()
-        //lblProject.popIn()
-        //lblProject.bounceIn(from: .left)
-        //lblProject.fadeIn()
     }
     
     func updateAppVersionLabel(){

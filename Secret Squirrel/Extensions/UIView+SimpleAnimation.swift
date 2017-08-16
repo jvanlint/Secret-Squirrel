@@ -72,9 +72,21 @@ public extension UIView {
         return self
     }
     
-    @discardableResult func fade(fromColor: UIColor = UIColor.white, toColor: UIColor = UIColor.red, duration: TimeInterval = 0.25,
-                                    delay: TimeInterval = 0,
-                                    completion: ((Bool) -> Void)? = nil) -> UIView {
+    /**
+     Fades the background color of a view from one color to another without using alpha values. 
+     
+     - Parameters:
+     - fromColor: the starting color you want to begin fade with
+     - toColor: the final color you want to fade to
+     - duration: duration of the animation, in seconds
+     - delay: delay before the animation starts, in seconds
+     - completion: block executed when the animation ends
+     */
+    @discardableResult func fadeColor(fromColor: UIColor = UIColor.white,
+                                      toColor: UIColor = UIColor.red,
+                                      duration: TimeInterval = 0.25,
+                                      delay: TimeInterval = 0,
+                                      completion: ((Bool) -> Void)? = nil) -> UIView {
         self.backgroundColor = fromColor
         UIView.animate(
             withDuration: duration, delay: delay, options: .curveEaseIn, animations: {

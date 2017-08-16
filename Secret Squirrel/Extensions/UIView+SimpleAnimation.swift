@@ -72,6 +72,18 @@ public extension UIView {
         return self
     }
     
+    @discardableResult func fade(fromColor: UIColor = UIColor.white, toColor: UIColor = UIColor.red, duration: TimeInterval = 0.25,
+                                    delay: TimeInterval = 0,
+                                    completion: ((Bool) -> Void)? = nil) -> UIView {
+        self.backgroundColor = fromColor
+        UIView.animate(
+            withDuration: duration, delay: delay, options: .curveEaseIn, animations: {
+                self.backgroundColor = toColor
+        }, completion: completion)
+        return self
+    }
+    
+    
     /**
      Slides this view into position, from an edge of the parent (if "from" is set) or a fixed offset
      away from its position (if "x" and "y" are set).

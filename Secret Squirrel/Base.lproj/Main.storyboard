@@ -37,12 +37,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-EP-L1v" userLabel="OpaqueTitleBar">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8Q-xV-VyY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.39330978719999998" green="0.68068812680000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-EP-L1v" userLabel="OpaqueTitleBar" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="16" y="87" width="343" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="qVU-Tj-a56"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.14999999999999999" contentMode="center" image="SquirrelLogo" translatesAutoresizingMaskIntoConstraints="NO" id="irI-36-6Iy">
                                 <rect key="frame" x="0.0" y="517" width="150" height="150"/>
@@ -130,22 +139,26 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.72354468199999999" blue="0.4151421501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="3tG-8q-YCo"/>
                             <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Bv-5z-sox"/>
                             <constraint firstItem="6J8-ax-5JE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="GDx-UV-MJj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="irI-36-6Iy" secondAttribute="bottom" id="K3T-Qt-Gtf"/>
+                            <constraint firstAttribute="trailing" secondItem="O8Q-xV-VyY" secondAttribute="trailing" id="KnO-aa-GZ2"/>
                             <constraint firstItem="lwe-21-m2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M9h-7g-wC2"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Nay-6D-uK5"/>
                             <constraint firstItem="h8e-o9-gn5" firstAttribute="top" secondItem="gnv-G9-yf6" secondAttribute="bottom" constant="33" id="PQq-6b-772"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UIA-2t-KHf"/>
                             <constraint firstItem="gnv-G9-yf6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Wct-qs-tlT"/>
                             <constraint firstItem="gnv-G9-yf6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="XfW-u8-vf8"/>
+                            <constraint firstItem="O8Q-xV-VyY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YJf-KF-N51"/>
+                            <constraint firstItem="O8Q-xV-VyY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gap-v7-ttm"/>
                             <constraint firstItem="8tv-EP-L1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="gmf-io-efX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6J8-ax-5JE" secondAttribute="trailing" constant="123" id="hIh-H7-l4s"/>
                             <constraint firstItem="gnv-G9-yf6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="j2S-8Y-pWY"/>
                             <constraint firstItem="h8e-o9-gn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jfq-xa-GdX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O8Q-xV-VyY" secondAttribute="bottom" id="u9b-B0-2an"/>
                             <constraint firstItem="lwe-21-m2J" firstAttribute="top" secondItem="h8e-o9-gn5" secondAttribute="bottom" constant="15" id="vHa-xU-Ogw"/>
                             <constraint firstItem="unv-Qi-AlZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yar-ee-1gy"/>
                             <constraint firstItem="6J8-ax-5JE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="ysL-ZO-VsX"/>
@@ -164,6 +177,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bgView" destination="O8Q-xV-VyY" id="zVU-5r-PkJ"/>
                         <outlet property="btnProject" destination="h8e-o9-gn5" id="Gvx-9g-4e3"/>
                         <outlet property="lblCodeName" destination="gnv-G9-yf6" id="GHH-6a-Vhb"/>
                         <outlet property="lblProject" destination="6J8-ax-5JE" id="tix-B8-clI"/>
@@ -568,7 +582,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="lblSecretSquirrel" destination="Hps-Ko-f6I" id="Oh6-SC-7cS"/>
                         <outlet property="lblVersion" destination="3Sn-Wy-xdM" id="7f4-gU-LqF"/>
+                        <outlet property="squirrelImage" destination="vAe-oN-8md" id="EzW-zD-jgz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ccv-bT-Mzj" userLabel="First Responder" sceneMemberID="firstResponder"/>

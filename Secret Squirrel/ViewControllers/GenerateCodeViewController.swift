@@ -28,6 +28,7 @@ class GenerateCodeViewController: UIViewController {
     @IBOutlet weak var lblProject: UILabel!             //Label displaying the text Project or Operation
     @IBOutlet weak var btnProject: WireFrameButton!     //The button switching between Project and Operation
     @IBOutlet weak var squirrelImage: UIImageView!
+    @IBOutlet weak var bgView: UIView!
     
     //MARK: - View Life Cycle
     
@@ -128,12 +129,14 @@ class GenerateCodeViewController: UIViewController {
         lblCodeName.text = newCodeName.codeNameString
         
         
-
-        let bgColor = UIColor.randomFlatColor()
+        let currentBgColor = self.bgView.backgroundColor!
+        let newBgColor = UIColor.randomFlatColor()
         
-        view.backgroundColor = bgColor
+        self.bgView.fade(fromColor: currentBgColor, toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
+        //self.bgView.backgroundColor = bgColor
+        //self.bgView.fadeIn(duration: 0.5, delay: 0.0, completion: nil)
  
-        lblCodeName.textColor = UIColor.contrastColor(color: bgColor)
+        lblCodeName.textColor = UIColor.contrastColor(color: newBgColor)
         
         if lblCodeName.textColor == UIColor.black{
             lblCodeName.shadowColor = UIColor.lightGray}
@@ -143,8 +146,8 @@ class GenerateCodeViewController: UIViewController {
         
         lblCodeName.popIn()
         //lblProject.popIn()
-        lblProject.bounceIn(from: .left)
-        
+        //lblProject.bounceIn(from: .left)
+        //lblProject.fadeIn()
     }
     
     func updateAppVersionLabel(){

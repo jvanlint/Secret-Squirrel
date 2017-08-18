@@ -14,12 +14,16 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var lblVersion: UILabel!
     @IBOutlet weak var squirrelImage: UIImageView!
     @IBOutlet weak var lblSecretSquirrel: UILabel!
+    @IBOutlet weak var lblSubTitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         lblVersion.text = AppController.sharedInstance.appVersion() + " (" + AppController.sharedInstance.appBuildNumber() + ")"
         // Do any additional setup after loading the view.
         
+        squirrelImage.popIn(fromScale: 0.5, duration: 0.5, delay: 0.2, completion: nil)
+        lblSecretSquirrel.popIn(fromScale: 0.5, duration: 0.5, delay: 0.3, completion: nil)
+        lblSubTitle.popIn(fromScale: 0.5, duration: 0.5, delay: 0.3, completion: nil)
     }
     
 
@@ -38,6 +42,7 @@ class AboutViewController: UIViewController {
         self.present(vc!, animated: true, completion: nil)
 
     }
+    
     func dialogBox()
     {
         let alertController = UIAlertController(title: "Destructive", message: "Simple alertView demo with Destructive and Ok.", preferredStyle: UIAlertControllerStyle.alert) //Replace UIAlertControllerStyle.Alert by UIAlertControllerStyle.alert

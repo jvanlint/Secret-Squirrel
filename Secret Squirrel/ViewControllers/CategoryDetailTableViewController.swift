@@ -12,14 +12,16 @@ class CategoryDetailTableViewController: UITableViewController {
     
     var categoryName = "Test"
     var dataSource = ["Test", "Test2"]
+    let categoryData = CodeWordCategories()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let categoryData = CodeWordCategories()
-        self.dataSource = categoryData.arrayOfWords(forCategory: self.categoryName)
-        self.navigationItem.title=categoryName
+        // Setup the datasource for the table.
+        self.dataSource = self.categoryData.arrayOfWords(forCategory: self.categoryName)
         
+        // Set up nav bar items.
+        self.navigationItem.title=categoryName
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
     }
     
@@ -31,7 +33,7 @@ class CategoryDetailTableViewController: UITableViewController {
                     // store your data
                     self.dataSource.append(field.text!)
                     // Write code to persist data.
-                    
+                    self.categoryData.add(word: field.text!, forCategory: self.categoryName)
                     self.tableView.reloadData()
                 } else {
                     // user did not fill field

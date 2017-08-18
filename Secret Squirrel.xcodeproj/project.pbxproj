@@ -58,6 +58,7 @@
 		564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
 		564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE971F13A69100F4CAB4 /* CornerImage.swift */; };
 		56AFDFEB1F42771600D566C7 /* CategoryDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */; };
+		56CA3F1B1F4672370038DFA1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA3F1A1F4672370038DFA1 /* SettingsViewController.swift */; };
 		56E19E801F09245B00D9F35D /* CodeWordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +121,7 @@
 		56370F491F07A4070008B2EC /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		564DBE971F13A69100F4CAB4 /* CornerImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerImage.swift; sourceTree = "<group>"; };
+		56CA3F1A1F4672370038DFA1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,12 +253,10 @@
 			isa = PBXGroup;
 			children = (
 				37BAA8B81F04B5DA0053401F /* GenerateCodeViewController.swift */,
-				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
-				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
-				371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */,
-				371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */,
 				371C9D451F15CB1B006FEA0E /* AboutViewController.swift */,
-				562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */,
+				56CA3F1C1F46723E0038DFA1 /* Settings */,
+				56CA3F1D1F46725F0038DFA1 /* Category Management */,
+				56CA3F1E1F46726D0038DFA1 /* Theme Management */,
 			);
 			name = "View Controllers";
 			path = ViewControllers;
@@ -277,6 +277,33 @@
 				37E38D841F15FA46003AF4D9 /* Social.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56CA3F1C1F46723E0038DFA1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				56CA3F1A1F4672370038DFA1 /* SettingsViewController.swift */,
+				371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		56CA3F1D1F46725F0038DFA1 /* Category Management */ = {
+			isa = PBXGroup;
+			children = (
+				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
+				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
+				562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */,
+			);
+			name = "Category Management";
+			sourceTree = "<group>";
+		};
+		56CA3F1E1F46726D0038DFA1 /* Theme Management */ = {
+			isa = PBXGroup;
+			children = (
+				371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */,
+			);
+			name = "Theme Management";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +470,7 @@
 				37BAA8BF1F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
 				562C24521F41D1BD00B7061E /* CategoryDetailTableViewController.swift in Sources */,
 				3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */,
+				56CA3F1B1F4672370038DFA1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Secret Squirrel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -632,7 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Secret Squirrel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

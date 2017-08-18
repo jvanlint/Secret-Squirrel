@@ -13,7 +13,7 @@ struct CodeWordCategory {
     //MARK: - Properties
     let categoryName: String
     let categoryDesc: String
-    let categoryWords: [String]
+    var categoryWords: [String]
     let categoryImage: String
     
     // MARK: - Initializers
@@ -48,7 +48,6 @@ struct CodeWordCategories {
         if let tempArray = NSArray(contentsOfFile:tempPath!) as? [[String : Any]]
         {
             for index in tempArray{
-                //print("Value: \(index["Name"])")
                 let name = index["Name"] as! String
                 let desc = index["Description"] as! String
                 let imageName = index["Image"] as! String
@@ -106,6 +105,47 @@ struct CodeWordCategories {
         }
         
         return categoryArray
+    }
+    
+    func add(word newWord:String, forCategory category:String){
+        var categoryObject: CodeWordCategory
+        var newCategoryArray: [CodeWordCategory]=[]
+        
+        for item in self.categoriesData{
+            if item.categoryName == category{
+                categoryObject = item
+                categoryObject.categoryWords.append(newWord)
+                //item.categoryWords.append(newWord)
+                newCategoryArray.append(categoryObject)
+            } else {
+                newCategoryArray.append(item)
+            }
+        }
+        
+        
+        saveCategoryListToFile()
+    }
+    
+    func saveCategoryListToFile(){
+        
+        var saveArray: [[String : Any]] = [[:]]
+        
+        for category in self.categoriesData
+        {
+            var dictionaryItem: [String : Any] = [:]
+                
+            dictionaryItem.updateValue(category.categoryName, forKey: "Name")
+            dictionaryItem.updateValue(category.categoryDesc, forKey: "Description")
+            dictionaryItem.updateValue(category.categoryImage, forKey: "Image")
+            dictionaryItem.updateValue(category.categoryWords, forKey: "Words")
+
+            saveArray.append(dictionaryItem)
+        }
+        
+        let tempPath = Bundle.main.path(forResource: "Categories", ofType: "plist")
+        
+        let newArray: NSArray = saveArray as NSArray
+        newArray.write(toFile: tempPath!, atomically: true)
     }
     
 }

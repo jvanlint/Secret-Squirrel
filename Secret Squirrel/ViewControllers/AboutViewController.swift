@@ -11,10 +11,14 @@ import Social
 
 class AboutViewController: UIViewController {
 
+    // MARK: - IBOutlets
+    
     @IBOutlet weak var lblVersion: UILabel!
     @IBOutlet weak var squirrelImage: UIImageView!
     @IBOutlet weak var lblSecretSquirrel: UILabel!
     @IBOutlet weak var lblSubTitle: UILabel!
+    
+    // MARK: - View Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +32,7 @@ class AboutViewController: UIViewController {
         lblSubTitle.popIn(fromScale: 0.5, duration: 0.5, delay: 0.3, completion: nil)
     }
     
-
+    // MARK: - User Interaction Functions
 
     @IBAction func didTouchWebSiteButton(_ sender: Any) {
         

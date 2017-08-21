@@ -10,9 +10,13 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    // MARK: - IBOutlets
+    
     @IBOutlet weak var imgSquirrel: UIImageView!
     @IBOutlet weak var lblSecretSquirrel: UILabel!
     @IBOutlet weak var lblByLine: UILabel!
+    
+    // MARK: - View Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()

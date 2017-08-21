@@ -12,14 +12,14 @@ import MessageUI                                        // Framework to enable e
 
 class GenerateCodeViewController: UIViewController {
     
-    //MARK: - Instance Variables
+    // MARK: - Instance Variables
     let messageObject = MessageComposer()               // Instance of MessageComposer declared at a scope that can be seen
                                                         // throughout the lifetime of the View Controller
                                                         // (so that the delegate callback can be invoked when appropriate).
     
     var timer: Timer!                                   // Timer variable used to animate squirrel image at given intervals.
     
-    //MARK: - IBOutlets
+    // MARK: - IBOutlets
     @IBOutlet weak var lblCodeName: UILabel!            // Label displaying the generated code name
     @IBOutlet weak var lblVersion: UILabel!             // App version label
     @IBOutlet weak var lblProject: UILabel!             // Label displaying the text Project or Operation
@@ -27,7 +27,7 @@ class GenerateCodeViewController: UIViewController {
     @IBOutlet weak var squirrelImage: UIImageView!      // Squirrel image used for animation.
     @IBOutlet weak var bgView: UIView!                  // Background view object used for changing color of the interface.
     
-    //MARK: - View Life Cycle
+    // MARK: - View Life Cycle
     
     override func viewDidLoad() {
     
@@ -46,7 +46,7 @@ class GenerateCodeViewController: UIViewController {
         generateNewProjectCode()
     }
     
-    //MARK: - User Interaction Functions
+    // MARK: - User Interaction Functions
     
     @IBAction func didTouchGenerateButton(_ sender: AnyObject) {
         
@@ -106,7 +106,7 @@ class GenerateCodeViewController: UIViewController {
         lblProject.fadeIn()
     }
     
-    //MARK: - Messaging Functions
+    // MARK: - Messaging Functions
     
     /// Launches iOS email with specified message and subject.
     ///
@@ -127,7 +127,7 @@ class GenerateCodeViewController: UIViewController {
         present(smsMessageVC, animated: true, completion: nil)
     }
     
-    //MARK: - Custom Functions
+    // MARK: - Custom Functions
     
     /// Generates a new project code name and sets the appropriate UI elements including background color.
     func generateNewProjectCode(){

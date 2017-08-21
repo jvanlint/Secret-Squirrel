@@ -9,7 +9,13 @@
 import UIKit
 
 class CustomiseViewController: UIViewController {
-
+    
+    // MARK: - Instance Variables
+    
+    var categoryNames: [String] = []
+    
+    // MARK: - IBOutlets
+    
     @IBOutlet weak var lblPrefix: UILabel!
     @IBOutlet weak var lblMiddle: UILabel!
     @IBOutlet weak var lblSuffix: UILabel!
@@ -18,11 +24,11 @@ class CustomiseViewController: UIViewController {
     @IBOutlet weak var lblMiddleCategory: UILabel!
     @IBOutlet weak var lblSuffixCategory: UILabel!
     
-    var categoryNames: [String] = []
+    // MARK: - View Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         refreshCategoryLabels()
         refreshCodeNameExample()
     }
@@ -32,9 +38,13 @@ class CustomiseViewController: UIViewController {
         refreshCodeNameExample()
     }
     
+    // MARK: - User Interaction Functions
+    
     @IBAction func didTouchTestCodeButton(_ sender: Any) {
         refreshCodeNameExample()
     }
+    
+    // MARK: - Custom Functions
     
     func refreshCodeNameExample()
     {
@@ -42,7 +52,6 @@ class CustomiseViewController: UIViewController {
         lblPrefix.text = sampleCodeName.prefix
         lblMiddle.text = sampleCodeName.middle
         lblSuffix.text = sampleCodeName.suffix
-        
     }
     
     func refreshCategoryLabels()
@@ -52,11 +61,8 @@ class CustomiseViewController: UIViewController {
         lblSuffixCategory.text = AppController.sharedInstance.suffix
     }
     
-    
-    
      // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "prefix"
@@ -76,12 +82,5 @@ class CustomiseViewController: UIViewController {
                     destViewController.categoryPosition = "suffix"
                 }
         }
-        
-        
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
      }
- 
-
-   
 }

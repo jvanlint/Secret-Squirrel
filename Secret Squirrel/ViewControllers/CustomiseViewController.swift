@@ -52,6 +52,10 @@ class CustomiseViewController: UIViewController {
         lblPrefix.text = sampleCodeName.prefix
         lblMiddle.text = sampleCodeName.middle
         lblSuffix.text = sampleCodeName.suffix
+        
+        lblPrefix.popIn()
+        lblMiddle.popIn()
+        lblSuffix.popIn()
     }
     
     func refreshCategoryLabels()

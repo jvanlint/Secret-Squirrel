@@ -73,10 +73,9 @@ public extension UIView {
     }
     
     /**
-     Fades the background color of a view from one color to another without using alpha values. 
+     Fades the background color of a view from existing bg color to a specified color without using alpha values.
      
      - Parameters:
-     - fromColor: the starting color you want to begin fade with
      - toColor: the final color you want to fade to
      - duration: duration of the animation, in seconds
      - delay: delay before the animation starts, in seconds

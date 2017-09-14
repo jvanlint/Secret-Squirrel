@@ -56,8 +56,8 @@ class Secret_SquirrelUITests: XCTestCase {
         */
         
         
-        XCUIDevice.shared().orientation = .portrait
-        XCUIDevice.shared().orientation = .portrait
+        XCUIDevice.shared.orientation = .portrait
+        XCUIDevice.shared.orientation = .portrait
         
         let app = XCUIApplication()
         snapshot("01-LandingScreen")

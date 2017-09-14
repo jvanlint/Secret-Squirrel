@@ -375,17 +375,20 @@
 					37BAA86A1F04B30E0053401F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 952LYY5FW2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
 					37BAA87E1F04B30E0053401F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 952LYY5FW2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 37BAA86A1F04B30E0053401F;
 					};
 					37BAA8891F04B30E0053401F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 952LYY5FW2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 37BAA86A1F04B30E0053401F;
 					};
@@ -662,7 +665,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4e914d32-ffb4-48b0-b2ad-438d3c9e331b";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.deadfrogstudios.SecretSquirrel";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -681,7 +685,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5e70177b-68b8-4215-9cd7-11202281fdca";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.deadfrogstudios.SecretSquirrel";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -696,7 +701,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secret Squirrel.app/Secret Squirrel";
 			};
 			name = Debug;
@@ -711,7 +717,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secret Squirrel.app/Secret Squirrel";
 			};
 			name = Release;
@@ -725,7 +732,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Secret Squirrel";
 			};
 			name = Debug;
@@ -739,7 +747,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Secret Squirrel";
 			};
 			name = Release;

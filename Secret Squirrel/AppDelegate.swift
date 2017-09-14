@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Set font for nav bar buttons.
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Avenir", size: 15)!], for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.font: UIFont(name: "Avenir", size: 15)!], for: .normal)
         
         // Load saved categories for code name generation from disk.
         AppController.sharedInstance.loadCategoryPreferencesFromDisk()

@@ -22,10 +22,11 @@ class CategoryDetailTableViewController: UITableViewController {
         
         // Set up nav bar items.
         self.navigationItem.title=categoryName
+        //self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
     }
     
-    func addTapped(){
+    @objc func addTapped(){
             let alertController = UIAlertController(title: "Add Category Item", message: "Please input your new category item:", preferredStyle: .alert)
             
             let confirmAction = UIAlertAction(title: "Add", style: .default) { (_) in

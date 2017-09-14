@@ -1,0 +1,5 @@
+Secret Squirrel is a code name generator that is easy to use, customisable and designed to be flexible. Once a project name has been selected you can share it with friends or colleagues using SMS, iMessage or email.
+
+Features planned for future versions include themes that determine the types of codes generated and user maintained word categories.
+
+Never feel intimidated by project naming again! Let Secret Squirrel decide on the little things so you can focus on the big picture.

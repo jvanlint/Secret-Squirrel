@@ -1,0 +1,1 @@
+Simple app. Doesn't access the internet and simply generates a code name.

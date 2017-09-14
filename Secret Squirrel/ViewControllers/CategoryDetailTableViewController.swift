@@ -22,7 +22,6 @@ class CategoryDetailTableViewController: UITableViewController {
         
         // Set up nav bar items.
         self.navigationItem.title=categoryName
-        //self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
     }
     

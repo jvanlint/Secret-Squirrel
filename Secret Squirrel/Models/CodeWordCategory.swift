@@ -45,6 +45,13 @@ struct CodeWordCategories {
         var categoryArray:[CodeWordCategory] = []
         
         let tempPath = Bundle.main.path(forResource: "Categories", ofType: "plist")   //Get the path of the plist file
+        
+        //Temp code
+        let data: NSData? = NSData(contentsOfFile: tempPath!)
+        let datasourceArray = try! PropertyListSerialization.propertyList(from:data as Data!, options: [], format: nil) as! [[String:Any]]
+        print(datasourceArray.self)
+        //
+        
         if let tempArray = NSArray(contentsOfFile:tempPath!) as? [[String : Any]]
         {
             for index in tempArray{
@@ -143,7 +150,6 @@ struct CodeWordCategories {
         }
         
         let tempPath = Bundle.main.path(forResource: "Categories", ofType: "plist")
-        
         let newArray: NSArray = saveArray as NSArray
         newArray.write(toFile: tempPath!, atomically: true)
     }

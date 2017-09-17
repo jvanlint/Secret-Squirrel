@@ -90,6 +90,9 @@ class CategoryDetailTableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             dataSource.remove(at: indexPath.row)
+            // Delete word from object and resave plist file.
+            
+            //self.categoryData.delete(word: word, forCategory: self.categoryName)
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view

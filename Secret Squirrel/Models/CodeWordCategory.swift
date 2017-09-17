@@ -57,7 +57,7 @@ class CodeWordCategories: Codable {
         let UserCategoriesURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("plist")
         var fileURL: URL
         
-        if let fileExists = try? UserCategoriesURL.checkResourceIsReachable(){
+        if try! UserCategoriesURL.checkResourceIsReachable(){
             fileURL = UserCategoriesURL
         } else {
             fileURL = Bundle.main.url(forResource: "Categories", withExtension: "plist")!
@@ -124,6 +124,16 @@ class CodeWordCategories: Codable {
         for item in self.categoriesData{
             if item.categoryName == category{
                 item.categoryWords.append(newWord)
+            }
+        }
+        
+        saveCategoryListToFile()
+    }
+    
+    func remove(atIndex index: Int, forCategory category: String){
+        for item in self.categoriesData{
+            if item.categoryName == category{
+                item.categoryWords.remove(at: index)
             }
         }
         

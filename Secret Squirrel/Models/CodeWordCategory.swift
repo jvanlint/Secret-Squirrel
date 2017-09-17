@@ -8,13 +8,21 @@
 
 import Foundation
 
-struct CodeWordCategory {
+class CodeWordCategory: Codable {
     
     //MARK: - Properties
     let categoryName: String
     let categoryDesc: String
     var categoryWords: [String]
     let categoryImage: String
+    
+    
+    private enum CodingKeys: String, CodingKey {
+        case categoryName = "Name"
+        case categoryDesc = "Description"
+        case categoryWords = "Words"
+        case categoryImage = "Image"
+    }
     
     // MARK: - Initializers
     
@@ -27,10 +35,10 @@ struct CodeWordCategory {
     }
 }
 
-struct CodeWordCategories {
+class CodeWordCategories: Codable {
     
     //MARK: - Properties
-    var categoriesData:[CodeWordCategory] = []
+    var categoriesData:[CodeWordCategory]
     
     // MARK: - Initializers
     
@@ -40,33 +48,30 @@ struct CodeWordCategories {
     }
     
     // Convenience initialiser.
-    init(){
+    convenience init(){
         
         var categoryArray:[CodeWordCategory] = []
         
-        let tempPath = Bundle.main.path(forResource: "Categories", ofType: "plist")   //Get the path of the plist file
+        let fileName = "UserCategories"
+        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        let UserCategoriesURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("plist")
+        var fileURL: URL
         
-        //Temp code
-        let data: NSData? = NSData(contentsOfFile: tempPath!)
-        let datasourceArray = try! PropertyListSerialization.propertyList(from:data as Data!, options: [], format: nil) as! [[String:Any]]
-        print(datasourceArray.self)
-        //
-        
-        if let tempArray = NSArray(contentsOfFile:tempPath!) as? [[String : Any]]
-        {
-            for index in tempArray{
-                let name = index["Name"] as! String
-                let desc = index["Description"] as! String
-                let imageName = index["Image"] as! String
-                let words:[String] = index["Words"] as! [String]
-                
-                let object=CodeWordCategory.init(categoryName: name, categoryDesc: desc, categoryWords: words, categoryImage: imageName)
-                categoryArray.append(object)
-            }
-            
+        if try! UserCategoriesURL.checkResourceIsReachable(){
+            fileURL = UserCategoriesURL
+        } else {
+            fileURL = Bundle.main.url(forResource: "Categories", withExtension: "plist")!
         }
+        
+        
+        if let data = try? Data(contentsOf: fileURL) {
+            let decoder = PropertyListDecoder()
+            categoryArray = try! decoder.decode([CodeWordCategory].self, from: data)
+        }
+        
         self.init(categoryObjects: categoryArray)
     }
+
     
     //MARK: - Methods
     
@@ -115,43 +120,45 @@ struct CodeWordCategories {
     }
     
     func add(word newWord:String, forCategory category:String){
-        var categoryObject: CodeWordCategory
-        var newCategoryArray: [CodeWordCategory]=[]
         
         for item in self.categoriesData{
             if item.categoryName == category{
-                categoryObject = item
-                categoryObject.categoryWords.append(newWord)
-                //item.categoryWords.append(newWord)
-                newCategoryArray.append(categoryObject)
-            } else {
-                newCategoryArray.append(item)
+                item.categoryWords.append(newWord)
             }
         }
         
+        saveCategoryListToFile()
+    }
+    
+    func remove(atIndex index: Int, forCategory category: String){
+        for item in self.categoriesData{
+            if item.categoryName == category{
+                item.categoryWords.remove(at: index)
+            }
+        }
         
         saveCategoryListToFile()
     }
     
     func saveCategoryListToFile(){
         
-        var saveArray: [[String : Any]] = [[:]]
+        let fileName = "UserCategories"
+        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
         
-        for category in self.categoriesData
-        {
-            var dictionaryItem: [String : Any] = [:]
-                
-            dictionaryItem.updateValue(category.categoryName, forKey: "Name")
-            dictionaryItem.updateValue(category.categoryDesc, forKey: "Description")
-            dictionaryItem.updateValue(category.categoryImage, forKey: "Image")
-            dictionaryItem.updateValue(category.categoryWords, forKey: "Words")
-
-            saveArray.append(dictionaryItem)
+        let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("plist")
+        print("FilePath: \(fileURL.path)")
+        
+        let encoder = PropertyListEncoder()
+        encoder.outputFormat = .xml
+        
+        do {
+            let data = try encoder.encode(self.categoriesData)
+            try data.write(to: fileURL)
+            print("Wrote successfully to: \(fileURL.path)")
+        } catch {
+            print(error)
         }
         
-        let tempPath = Bundle.main.path(forResource: "Categories", ofType: "plist")
-        let newArray: NSArray = saveArray as NSArray
-        newArray.write(toFile: tempPath!, atomically: true)
     }
     
 }

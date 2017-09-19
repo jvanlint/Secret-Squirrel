@@ -16,13 +16,13 @@ Secret Squirrel is an iOS app developed in Swift 3.0 that generates up to three(
 
 ## Motivation
 
-This app created in response to a Swift Meetup challenge in Melbourne, Australia. It was a modest challenge to create a code name generator and in the process give each programmer an opportunity to challenge their own skills and use Swift and iOS features they might not usually use or have experience with.
+This app was created in response to a Swift Meetup challenge in Melbourne, Australia. It was a modest challenge to create a code name generator and in the process give each programmer an opportunity to challenge their own skills and use Swift and iOS features they might not usually use or have experience with.
 
 In this implementation of the challenge I used these kinds of features to enhance the challenge:
 - Extensions to base iOS classes such us UIColor, Array and Int
-- Collection views
 - Control subclassing (mainly UIButton) using @IBDesignable and @IBInspectable to modify properties in Storyboards
-
+- Animation of UIViews
+- Swift4 Codeable protocols for serialising and deserialisong property lists.
 
 ## Prerequisites
 * iOS 10 or greater
@@ -33,7 +33,6 @@ In this implementation of the challenge I used these kinds of features to enhanc
 
 #### Does not work on
 * No known devices.
-
 
 ## Third Party Libraries
 

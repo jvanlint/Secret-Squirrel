@@ -1,15 +1,16 @@
-Thanks to the small community of people who have downloaded this app. Welcome to the new improved release notes for v.1.0.5!
+Thanks to the small community of people who have downloaded this app! Welcome to the new improved release notes for v.1.0.5
 • Small improvements to code name themes interface and experience.
 
 *** NEW ***
-• Nothing for the moment. But your ideas are welcome!
+• Categories can now be modified. View all the words in a category, add your own words or swipe to delete those you don't like.
 
 *** IMPROVEMENTS ***
 • The theme selection screen will now highlight a theme if it was selected. You should see a red(ish) background on any theme that matches the currently selected word categories.
+• Animation comes to Secret Squirrel. Code name generator nows animates text and smoothly changes background colors. Little animation tweaks made throughout app. See if you can spot them.
 
 *** FIXED ***
 • Minor bug fixes.
 
-This app is being used by me as a test bed for new concepts and learning in Swift. Expect to see it updated regularly.
+This app is being used by me as a way for learning and testing new concepts in the Swift language. Expect to see it updated regularly.
 
-Submit your suggestions for improvements to feedback@deadfrogstudios.com as we value your feedback”
+Submit your suggestions for improvements to feedback@deadfrogstudios.com as we value your feedback!

@@ -31,10 +31,13 @@ class CategoryDetailTableViewController: UITableViewController {
             let confirmAction = UIAlertAction(title: "Add", style: .default) { (_) in
                 if let field = alertController.textFields?[0] {
                     // store your data
-                    self.dataSource.append(field.text!)
-                    // Write code to persist data.
-                    self.categoryData.add(word: field.text!, forCategory: self.categoryName)
-                    self.tableView.reloadData()
+                    if !(field.text!.isEmpty)
+                    {
+                        self.dataSource.append(field.text!)
+                        // Write code to persist data.
+                        self.categoryData.add(word: field.text!, forCategory: self.categoryName)
+                        self.tableView.reloadData()
+                    }
                 } else {
                     // user did not fill field
                 }

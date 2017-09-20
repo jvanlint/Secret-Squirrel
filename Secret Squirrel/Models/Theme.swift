@@ -41,7 +41,6 @@ struct Themes{
         if let tempArray = NSArray(contentsOfFile:tempPath!) as? [[String : Any]]
         {
             for index in tempArray{
-                //print("Value: \(index["Name"])")
                 let tempName = index["themeName"] as! String
                 let tempDesc = index["themeDescription"] as! String
                 let tempType = index["themeType"] as! String

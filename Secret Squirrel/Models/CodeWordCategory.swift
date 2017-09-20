@@ -146,7 +146,7 @@ class CodeWordCategories: Codable {
         let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
         
         let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("plist")
-        print("FilePath: \(fileURL.path)")
+        
         
         let encoder = PropertyListEncoder()
         encoder.outputFormat = .xml
@@ -154,7 +154,7 @@ class CodeWordCategories: Codable {
         do {
             let data = try encoder.encode(self.categoriesData)
             try data.write(to: fileURL)
-            print("Wrote successfully to: \(fileURL.path)")
+            
         } catch {
             print(error)
         }

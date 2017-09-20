@@ -33,53 +33,45 @@ class Secret_SquirrelUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        /*
-        XCUIDevice.shared().orientation = .faceUp
-        XCUIDevice.shared().orientation = .faceUp
+        XCUIDevice.shared.orientation = .portrait
+        XCUIDevice.shared.orientation = .portrait
+        
+        //let app = XCUIApplication()
+//        snapshot("01-LandingScreen")
+//        app.navigationBars["Secret Squirrel"].buttons["SettingsIcon"].tap()
+//        snapshot("02-SettingsScreen")
+//
+//        let tablesQuery = app.tables
+//        tablesQuery.staticTexts["Customise Code Name Categories"].tap()
+//        snapshot("03-CategoryScreen")
+//        app.otherElements.containing(.navigationBar, identifier:"Customise").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
+//        snapshot("04-SelectCategoryScreen")
+//        app.navigationBars["Category"].buttons["Customise"].tap()
+//        app.navigationBars["Customise"].buttons["Settings"].tap()
+//        tablesQuery.staticTexts["Select a Theme"].tap()
+//        snapshot("05-ThemeScreen")
+//        app.navigationBars["Themes"].buttons["Settings"].tap()
+//        tablesQuery.staticTexts["About Secret Squirrel"].tap()
+        
         
         let app = XCUIApplication()
+        snapshot("01-LandingScreen")
         let secretSquirrelNavigationBar = app.navigationBars["Secret Squirrel"]
-        snapshot("01-LandingScreen")
-        secretSquirrelNavigationBar.buttons["SettingsIcon"].tap()
-        snapshot("02-Settings")
-        app.otherElements.containing(.navigationBar, identifier:"Customise").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
-        snapshot("03-Categories")
-        
-        app.navigationBars["Category"].buttons["Customise"].tap()
-        app.navigationBars["Customise"].buttons["Secret Squirrel"].tap()
-        secretSquirrelNavigationBar.buttons["MsgIcon"].tap()
-        snapshot("04-SendMsg")
+        secretSquirrelNavigationBar.children(matching: .button).element(boundBy: 1).tap()
+        snapshot("02-SharingScreen")
         app.sheets.buttons["Cancel"].tap()
-        */
-        
-        
-        XCUIDevice.shared.orientation = .portrait
-        XCUIDevice.shared.orientation = .portrait
-        
-        let app = XCUIApplication()
-        snapshot("01-LandingScreen")
-        app.navigationBars["Secret Squirrel"].buttons["SettingsIcon"].tap()
-        snapshot("02-SettingsScreen")
+        secretSquirrelNavigationBar.children(matching: .button).element(boundBy: 0).tap()
+        snapshot("03-SettingsScreen")
         
         let tablesQuery = app.tables
-        tablesQuery.staticTexts["Customise Code Name Categories"].tap()
-        snapshot("03-CategoryScreen")
-        app.otherElements.containing(.navigationBar, identifier:"Customise").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
-        snapshot("04-SelectCategoryScreen")
-        app.navigationBars["Category"].buttons["Customise"].tap()
-        app.navigationBars["Customise"].buttons["Settings"].tap()
-        tablesQuery.staticTexts["Select a Theme"].tap()
-        snapshot("05-ThemeScreen")
-        app.navigationBars["Themes"].buttons["Settings"].tap()
-        tablesQuery.staticTexts["About Secret Squirrel"].tap()
-        
-        
-        
-        
-        
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Select a Theme"]/*[[".cells.staticTexts[\"Select a Theme\"]",".staticTexts[\"Select a Theme\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        snapshot("04-ThemeSelection")
+        app.navigationBars.buttons["Settings"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Customise Code Name Categories"]/*[[".cells.staticTexts[\"Customise Code Name Categories\"]",".staticTexts[\"Customise Code Name Categories\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        snapshot("05-CategoryScreen")
+        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.buttons["More Info, Animals, Random animal names."]/*[[".cells.buttons[\"More Info, Animals, Random animal names.\"]",".buttons[\"More Info, Animals, Random animal names.\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
     }
     
 }

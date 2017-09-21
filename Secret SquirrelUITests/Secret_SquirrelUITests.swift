@@ -57,21 +57,19 @@ class Secret_SquirrelUITests: XCTestCase {
         
         let app = XCUIApplication()
         snapshot("01-LandingScreen")
-        let secretSquirrelNavigationBar = app.navigationBars["Secret Squirrel"]
-        secretSquirrelNavigationBar.children(matching: .button).element(boundBy: 1).tap()
-        snapshot("02-SharingScreen")
-        app.sheets.buttons["Cancel"].tap()
-        secretSquirrelNavigationBar.children(matching: .button).element(boundBy: 0).tap()
-        snapshot("03-SettingsScreen")
+        app.navigationBars["Secret Squirrel"].children(matching: .button).element(boundBy: 0).tap()
+        snapshot("02-SettingsScreen")
         
         let tablesQuery = app.tables
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Select a Theme"]/*[[".cells.staticTexts[\"Select a Theme\"]",".staticTexts[\"Select a Theme\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        snapshot("04-ThemeSelection")
+        snapshot("03-ThemesScreen")
         app.navigationBars.buttons["Settings"].tap()
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Customise Code Name Categories"]/*[[".cells.staticTexts[\"Customise Code Name Categories\"]",".staticTexts[\"Customise Code Name Categories\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        snapshot("05-CategoryScreen")
+        snapshot("04-CustomiseScreen")
         app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
+        snapshot("05-EditScreen")
         tablesQuery/*@START_MENU_TOKEN@*/.buttons["More Info, Animals, Random animal names."]/*[[".cells.buttons[\"More Info, Animals, Random animal names.\"]",".buttons[\"More Info, Animals, Random animal names.\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
     }
     
 }

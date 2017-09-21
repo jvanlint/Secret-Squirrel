@@ -48,7 +48,7 @@ platform :ios do
   lane :release do
     # match(type: "appstore")
     ensure_git_status_clean
-    snapshot
+    #snapshot
     gym # Build your app - more options available
     deliver(force: true)
     # frameit

@@ -219,9 +219,7 @@
 				37BAA89E1F04B4120053401F /* WireframeButton.swift */,
 				37BAA89F1F04B4120053401F /* CornerLabel.swift */,
 				37BAA8A01F04B4120053401F /* MessageComposer.swift */,
-				564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */,
 				564DBE971F13A69100F4CAB4 /* CornerImage.swift */,
-				371C9D471F15D8B4006FEA0E /* ThemeTableViewCell.swift */,
 				562D29581F1641D6002E5F02 /* CornerView.swift */,
 			);
 			name = "Custom Classes";
@@ -293,6 +291,7 @@
 			children = (
 				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
 				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
+				564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */,
 				562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */,
 			);
 			name = "Category Management";
@@ -302,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */,
+				371C9D471F15D8B4006FEA0E /* ThemeTableViewCell.swift */,
 			);
 			name = "Theme Management";
 			sourceTree = "<group>";

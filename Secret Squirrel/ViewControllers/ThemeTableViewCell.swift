@@ -12,6 +12,7 @@ class ThemeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var lblThemeName: UILabel!
     @IBOutlet weak var lblThemeDescription: UILabel!
+    @IBOutlet weak var imgCheckmark: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

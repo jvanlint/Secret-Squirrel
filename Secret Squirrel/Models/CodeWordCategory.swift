@@ -57,12 +57,15 @@ class CodeWordCategories: Codable {
         let UserCategoriesURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("plist")
         var fileURL: URL
         
-        if try! UserCategoriesURL.checkResourceIsReachable(){
-            fileURL = UserCategoriesURL
-        } else {
+        do{
+            if try UserCategoriesURL.checkResourceIsReachable(){
+                fileURL = UserCategoriesURL
+            } else {
+                fileURL = Bundle.main.url(forResource: "Categories", withExtension: "plist")!
+            }
+        }catch{
             fileURL = Bundle.main.url(forResource: "Categories", withExtension: "plist")!
         }
-        
         
         if let data = try? Data(contentsOf: fileURL) {
             let decoder = PropertyListDecoder()

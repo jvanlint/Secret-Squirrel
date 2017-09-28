@@ -35,25 +35,6 @@ class Secret_SquirrelUITests: XCTestCase {
     func testExample() {
         
         XCUIDevice.shared.orientation = .portrait
-        XCUIDevice.shared.orientation = .portrait
-        
-        //let app = XCUIApplication()
-//        snapshot("01-LandingScreen")
-//        app.navigationBars["Secret Squirrel"].buttons["SettingsIcon"].tap()
-//        snapshot("02-SettingsScreen")
-//
-//        let tablesQuery = app.tables
-//        tablesQuery.staticTexts["Customise Code Name Categories"].tap()
-//        snapshot("03-CategoryScreen")
-//        app.otherElements.containing(.navigationBar, identifier:"Customise").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).buttons["Edit"].tap()
-//        snapshot("04-SelectCategoryScreen")
-//        app.navigationBars["Category"].buttons["Customise"].tap()
-//        app.navigationBars["Customise"].buttons["Settings"].tap()
-//        tablesQuery.staticTexts["Select a Theme"].tap()
-//        snapshot("05-ThemeScreen")
-//        app.navigationBars["Themes"].buttons["Settings"].tap()
-//        tablesQuery.staticTexts["About Secret Squirrel"].tap()
-        
         
         let app = XCUIApplication()
         snapshot("01-LandingScreen")

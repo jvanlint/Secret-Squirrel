@@ -37,8 +37,6 @@ class GenerateCodeViewController: UIViewController {
         updateAppVersionLabel()
         
         // Setup a timer to animate the squirrel image.
-        //timer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(shakeSquirrel), userInfo: nil, repeats: true)
-        
         timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true, block:{_ in self.shakeSquirrel() })
     }
     

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43D1F0C4F7200E2F502 /* Theme.swift */; };
 		3703E4421F0C6BEC00E2F502 /* CodeNameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */; };
 		371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
 		371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */; };
@@ -81,7 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3703E43D1F0C4F7200E2F502 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameModelTests.swift; sourceTree = "<group>"; };
 		371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 			children = (
 				37BAA8B41F04B5310053401F /* CodeName.swift */,
 				56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */,
-				3703E43D1F0C4F7200E2F502 /* Theme.swift */,
 				56206CB41F7F22D300A8E701 /* ThemeModels.swift */,
 			);
 			path = Models;
@@ -476,7 +473,6 @@
 				37BAA8BD1F04B5E70053401F /* CustomiseViewController.swift in Sources */,
 				37BAA8BF1F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
 				562C24521F41D1BD00B7061E /* CategoryDetailTableViewController.swift in Sources */,
-				3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */,
 				56CA3F1B1F4672370038DFA1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

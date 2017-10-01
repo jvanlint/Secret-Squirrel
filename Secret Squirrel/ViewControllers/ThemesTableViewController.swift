@@ -49,7 +49,7 @@ class ThemesTableViewController: UITableViewController {
             cell.backgroundColor = UIColor.midnightBlueColor().withAlphaComponent(1.0)
         }
         
-        if (themeObject.categories.0 == AppController.sharedInstance.prefix) && (themeObject.categories.1 == AppController.sharedInstance.middle) && (themeObject.categories.2 == AppController.sharedInstance.suffix){
+        if (themeObject.prefix == AppController.sharedInstance.prefix) && (themeObject.middle == AppController.sharedInstance.middle) && (themeObject.suffix == AppController.sharedInstance.suffix){
             cell.imgCheckmark.isHidden = false
         } else {
             cell.imgCheckmark.isHidden = true
@@ -61,9 +61,9 @@ class ThemesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let themeObject:Theme = tableDataSource[indexPath.row]
         
-        AppController.sharedInstance.prefix = themeObject.categories.0
-        AppController.sharedInstance.middle = themeObject.categories.1
-        AppController.sharedInstance.suffix = themeObject.categories.2
+        AppController.sharedInstance.prefix = themeObject.prefix
+        AppController.sharedInstance.middle = themeObject.middle
+        AppController.sharedInstance.suffix = themeObject.suffix
         
         _ = navigationController?.popToRootViewController(animated: true)
     }

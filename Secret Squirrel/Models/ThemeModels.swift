@@ -8,7 +8,7 @@
 
 import Foundation
 
-class xTheme: Codable{
+class Theme: Codable{
     
     var name: String
     var description: String
@@ -21,7 +21,7 @@ class xTheme: Codable{
         case name = "themeName"
         case description = "themeDescription"
         case type = "themeType"
-        case prefix = "Image"
+        case prefix = "prefix"
         case middle = "middle"
         case suffix = "suffix"
     }
@@ -39,24 +39,24 @@ class xTheme: Codable{
     }
 }
 
-class xThemes: Decodable{
-    var themesList: [xTheme]
+class Themes: Decodable{
+    var themesList: [Theme]
     
     // Designated initialiser
-    init(themesList: [xTheme]){
+    init(themesList: [Theme]){
         
         self.themesList = themesList
     }
     
     // Convenience initialiser
     convenience init(){
-        var themesArray: [xTheme] = []
+        var themesArray: [Theme] = []
         
         let fileURL = Bundle.main.url(forResource: "Themes", withExtension: "plist")!
         
         if let data = try? Data(contentsOf: fileURL) {
             let decoder = PropertyListDecoder()
-            themesArray = try! decoder.decode([xTheme].self, from: data)
+            themesArray = try! decoder.decode([Theme].self, from: data)
         }
         
         self.init(themesList:themesArray)

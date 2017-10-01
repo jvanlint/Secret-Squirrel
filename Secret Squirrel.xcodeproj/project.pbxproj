@@ -52,6 +52,7 @@
 		37BAA8CD1F04BC830053401F /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C71F04BC830053401F /* Categories.plist */; };
 		37E38D851F15FA46003AF4D9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E38D841F15FA46003AF4D9 /* Social.framework */; };
 		56074F151F428CF000AD8C9D /* UIView+SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56074F141F428CF000AD8C9D /* UIView+SimpleAnimation.swift */; };
+		56206CB51F7F22D300A8E701 /* ThemeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56206CB41F7F22D300A8E701 /* ThemeModels.swift */; };
 		562C24521F41D1BD00B7061E /* CategoryDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */; };
 		562D29591F1641D6002E5F02 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D29581F1641D6002E5F02 /* CornerView.swift */; };
 		56370F4A1F07A4070008B2EC /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56370F491F07A4070008B2EC /* SnapshotHelper.swift */; };
@@ -116,6 +117,7 @@
 		37BAA8C71F04BC830053401F /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		37E38D841F15FA46003AF4D9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		56074F141F428CF000AD8C9D /* UIView+SimpleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SimpleAnimation.swift"; sourceTree = "<group>"; };
+		56206CB41F7F22D300A8E701 /* ThemeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModels.swift; sourceTree = "<group>"; };
 		562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailTableViewController.swift; sourceTree = "<group>"; };
 		562D29581F1641D6002E5F02 /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
 		56370F491F07A4070008B2EC /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				37BAA8B41F04B5310053401F /* CodeName.swift */,
 				56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */,
 				3703E43D1F0C4F7200E2F502 /* Theme.swift */,
+				56206CB41F7F22D300A8E701 /* ThemeModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				37BAA8A31F04B4120053401F /* WireframeButton.swift in Sources */,
 				564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */,
 				371C9D461F15CB1B006FEA0E /* AboutViewController.swift in Sources */,
+				56206CB51F7F22D300A8E701 /* ThemeModels.swift in Sources */,
 				371C9D441F15CB06006FEA0E /* ThemesTableViewController.swift in Sources */,
 				37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
 				564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */,

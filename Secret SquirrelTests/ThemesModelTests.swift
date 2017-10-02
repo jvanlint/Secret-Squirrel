@@ -27,7 +27,7 @@ class ThemesModelTests: XCTestCase {
     }
     
     func testDesignatedInitialiser() {
-        let testThemeObject = Theme(name: "Test", description: "Test", type: "Test", categories: ("Test","Test","Test"))
+        let testThemeObject = Theme(name: "Test", description: "Test", type: "Test", prefix: "Test", middle: "Test", suffix: "Test")
         let testThemesObject = Themes(themesList: [testThemeObject])
         
         XCTAssert(testThemesObject.themesList.count > 0, "Themes object did not initialise theme list correctly.")

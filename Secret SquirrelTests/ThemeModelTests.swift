@@ -15,7 +15,7 @@ class ThemeModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        themeModelObject = Theme(name: "Test", description: "Test Desc", type: "User", categories: ("Cat", "Dog","Bird"))
+        themeModelObject = Theme(name: "Test", description: "Test Desc", type: "User", prefix: "Cat", middle: "Dog", suffix: "Bird")
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -29,6 +29,8 @@ class ThemeModelTests: XCTestCase {
         XCTAssert(themeModelObject.name == "Test", "Themen name failed to initialise")
         XCTAssert(themeModelObject.description == "Test Desc", "Theme desc failed to initialise")
         XCTAssert(themeModelObject.type == "User", "Theme type failed to initialise")
-        XCTAssert(themeModelObject.categories == ("Cat", "Dog", "Bird"), "Theme categories failed to initialise")
+        XCTAssert(themeModelObject.prefix == "Cat", "Theme prefix failed to initialise")
+        XCTAssert(themeModelObject.middle == "Dog", "Theme prefix failed to initialise")
+        XCTAssert(themeModelObject.suffix == "Bird", "Theme prefix failed to initialise")
     }
 }

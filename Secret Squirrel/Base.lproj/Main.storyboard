@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fA9-NG-gJu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fA9-NG-gJu">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -39,7 +39,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8Q-xV-VyY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.39330978719999998" green="0.68068812680000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-EP-L1v" userLabel="OpaqueTitleBar" customClass="CornerLabel" customModule="Secret_Squirrel" customModuleProvider="target">
                                 <rect key="frame" x="16" y="87" width="343" height="38"/>
@@ -141,7 +141,7 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.39330978719999998" green="0.68068812680000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unv-Qi-AlZ" secondAttribute="bottom" constant="8" id="3tG-8q-YCo"/>
                             <constraint firstItem="irI-36-6Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Bv-5z-sox"/>
@@ -229,12 +229,12 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="oVO-md-Elf" secondAttribute="trailing" constant="28" id="2dE-OP-m7F"/>
-                                    <constraint firstItem="Hc1-Lg-RO6" firstAttribute="top" secondItem="e2v-Wt-Aa3" secondAttribute="top" constant="83" id="5Y4-3Q-E9d"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hc1-Lg-RO6" secondAttribute="trailing" constant="28" id="HzX-oK-Pnc"/>
                                     <constraint firstAttribute="bottom" secondItem="1lG-L1-E5z" secondAttribute="bottom" id="OhO-Tp-W7t"/>
-                                    <constraint firstAttribute="trailing" secondItem="Hc1-Lg-RO6" secondAttribute="trailing" constant="28" id="YQE-JS-GWb"/>
+                                    <constraint firstItem="Hc1-Lg-RO6" firstAttribute="top" secondItem="e2v-Wt-Aa3" secondAttribute="top" constant="83" id="WWn-TD-JRD"/>
+                                    <constraint firstItem="oVO-md-Elf" firstAttribute="top" secondItem="Hc1-Lg-RO6" secondAttribute="bottom" constant="-3" id="ctu-99-jSO"/>
+                                    <constraint firstAttribute="trailing" secondItem="oVO-md-Elf" secondAttribute="trailing" constant="28" id="j7d-6p-Vvl"/>
                                     <constraint firstItem="1lG-L1-E5z" firstAttribute="leading" secondItem="e2v-Wt-Aa3" secondAttribute="leading" id="kZG-wP-7aR"/>
-                                    <constraint firstItem="oVO-md-Elf" firstAttribute="top" secondItem="Hc1-Lg-RO6" secondAttribute="bottom" constant="-3" id="nKc-ff-kEr"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v7Y-q1-eSq">
@@ -518,7 +518,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2017 Dead Frog Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siL-9z-YKT">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2018 Dead Frog Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siL-9z-YKT">
                                         <rect key="frame" x="8" y="564" width="359" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="n7x-7m-kEd"/>

@@ -142,7 +142,8 @@ class GenerateCodeViewController: UIViewController {
         let newBgColor = UIColor.randomFlatColor()
         
         // Animate the transition between the current color and the newly generated random color.
-        self.bgView.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
+        //self.bgView.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
+        self.view.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
 
         // Change the label to white or black depending on the contrast of the background color.
         lblCodeName.textColor = UIColor.contrastColor(color: newBgColor)

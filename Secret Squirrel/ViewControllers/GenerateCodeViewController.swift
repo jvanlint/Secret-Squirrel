@@ -139,7 +139,11 @@ class GenerateCodeViewController: UIViewController {
         lblCodeName.text = newCodeName.codeNameString
         
         // Change the background color to signify new code generated and to make the UI bootylicious.
-        let newBgColor = UIColor.randomFlatColor()
+        let currentColor = self.view.backgroundColor
+        var newBgColor = UIColor.randomFlatColor()
+        while (currentColor == newBgColor) {
+            newBgColor = UIColor.randomFlatColor()
+        }
         
         // Animate the transition between the current color and the newly generated random color.
         //self.bgView.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)

@@ -207,14 +207,15 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2v-Wt-Aa3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Dead Frog Studios" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVO-md-Elf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="by Dead Frog Studios" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVO-md-Elf">
                                         <rect key="frame" x="228" y="108" width="119" height="17"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secret Squirrel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hc1-Lg-RO6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Secret Squirrel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hc1-Lg-RO6">
                                         <rect key="frame" x="213" y="83" width="134" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -229,10 +230,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Hc1-Lg-RO6" secondAttribute="trailing" constant="28" id="HzX-oK-Pnc"/>
                                     <constraint firstAttribute="bottom" secondItem="1lG-L1-E5z" secondAttribute="bottom" id="OhO-Tp-W7t"/>
-                                    <constraint firstItem="Hc1-Lg-RO6" firstAttribute="top" secondItem="e2v-Wt-Aa3" secondAttribute="top" constant="83" id="WWn-TD-JRD"/>
-                                    <constraint firstItem="oVO-md-Elf" firstAttribute="top" secondItem="Hc1-Lg-RO6" secondAttribute="bottom" constant="-3" id="ctu-99-jSO"/>
                                     <constraint firstAttribute="trailing" secondItem="oVO-md-Elf" secondAttribute="trailing" constant="28" id="j7d-6p-Vvl"/>
                                     <constraint firstItem="1lG-L1-E5z" firstAttribute="leading" secondItem="e2v-Wt-Aa3" secondAttribute="leading" id="kZG-wP-7aR"/>
                                 </constraints>

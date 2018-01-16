@@ -11,6 +11,6 @@ Happy New Year Squirrelers! A new year brings more plans to improve Secret Squir
 • Label positioning on some screens optimised for iPhoneX.
 
 *** FIXED ***
-• No bug fixes this release.
+• Background color on the code generator screen will always be a new color and not repeat directly after appearing.
 
 Submit your suggestions for improvements to feedback@deadfrogstudios.com as we value your feedback!

@@ -1,16 +1,15 @@
-Release notes for v.1.0.7
-Long time between releases but Secret Squirrel is not dead. Just resting....real still...before BAM! An update!
+Release notes for v.1.0.8
+Small minor update to UI this release.
 
-• Graphical improvements for iPhoneX.
+• Minor UI improvements.
 
 *** NEW ***
 • No new functions for this release. But things are in the works.
 
 *** IMPROVEMENTS ***
-• Color on code generation screen stretches to bottom of the screen on iPhoneX.
-• Label positioning on some screens optimised for iPhoneX.
+• No improvements for this release.
 
 *** FIXED ***
-• Background color on the code generator screen will always be a new color and not repeat directly after appearing.
+• Settings screen now shows labels correctly for a variety of devices.
 
 Submit your suggestions for improvements to feedback@deadfrogstudios.com as we value your feedback!

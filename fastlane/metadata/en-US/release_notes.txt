@@ -1,5 +1,5 @@
 Release notes for v.1.0.7
-Happy New Year Squirrelers! A new year brings more plans to improve Secret Squirrel. Minor update this...
+Long time between releases but Secret Squirrel is not dead. Just resting....real still...before BAM! An update!
 
 • Graphical improvements for iPhoneX.
 

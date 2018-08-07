@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E43D1F0C4F7200E2F502 /* Theme.swift */; };
 		3703E4421F0C6BEC00E2F502 /* CodeNameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */; };
 		371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */; };
 		371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */; };
@@ -32,12 +31,12 @@
 		37BAA8A61F04B4120053401F /* CornerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA89F1F04B4120053401F /* CornerLabel.swift */; };
 		37BAA8A71F04B4120053401F /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8A01F04B4120053401F /* MessageComposer.swift */; };
 		37BAA8A81F04B4120053401F /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8A01F04B4120053401F /* MessageComposer.swift */; };
-		37BAA8AD1F04B4C90053401F /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AA1F04B4C90053401F /* UIColorExtensions.swift */; };
-		37BAA8AE1F04B4C90053401F /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AA1F04B4C90053401F /* UIColorExtensions.swift */; };
-		37BAA8AF1F04B4C90053401F /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AB1F04B4C90053401F /* IntExtensions.swift */; };
-		37BAA8B01F04B4C90053401F /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AB1F04B4C90053401F /* IntExtensions.swift */; };
-		37BAA8B11F04B4C90053401F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AC1F04B4C90053401F /* ArrayExtensions.swift */; };
-		37BAA8B21F04B4C90053401F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AC1F04B4C90053401F /* ArrayExtensions.swift */; };
+		37BAA8AD1F04B4C90053401F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AA1F04B4C90053401F /* UIColor+Extensions.swift */; };
+		37BAA8AE1F04B4C90053401F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AA1F04B4C90053401F /* UIColor+Extensions.swift */; };
+		37BAA8AF1F04B4C90053401F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AB1F04B4C90053401F /* Int+Extensions.swift */; };
+		37BAA8B01F04B4C90053401F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AB1F04B4C90053401F /* Int+Extensions.swift */; };
+		37BAA8B11F04B4C90053401F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AC1F04B4C90053401F /* Array+Extensions.swift */; };
+		37BAA8B21F04B4C90053401F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8AC1F04B4C90053401F /* Array+Extensions.swift */; };
 		37BAA8B51F04B5310053401F /* CodeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8B41F04B5310053401F /* CodeName.swift */; };
 		37BAA8B61F04B5310053401F /* CodeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8B41F04B5310053401F /* CodeName.swift */; };
 		37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BAA8B81F04B5DA0053401F /* GenerateCodeViewController.swift */; };
@@ -52,6 +51,7 @@
 		37BAA8CD1F04BC830053401F /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37BAA8C71F04BC830053401F /* Categories.plist */; };
 		37E38D851F15FA46003AF4D9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E38D841F15FA46003AF4D9 /* Social.framework */; };
 		56074F151F428CF000AD8C9D /* UIView+SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56074F141F428CF000AD8C9D /* UIView+SimpleAnimation.swift */; };
+		56206CB51F7F22D300A8E701 /* ThemeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56206CB41F7F22D300A8E701 /* ThemeModels.swift */; };
 		562C24521F41D1BD00B7061E /* CategoryDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */; };
 		562D29591F1641D6002E5F02 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D29581F1641D6002E5F02 /* CornerView.swift */; };
 		56370F4A1F07A4070008B2EC /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56370F491F07A4070008B2EC /* SnapshotHelper.swift */; };
@@ -80,7 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3703E43D1F0C4F7200E2F502 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3703E4411F0C6BEC00E2F502 /* CodeNameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeNameModelTests.swift; sourceTree = "<group>"; };
 		371C9D411F15B952006FEA0E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
@@ -105,9 +104,9 @@
 		37BAA89E1F04B4120053401F /* WireframeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeButton.swift; sourceTree = "<group>"; };
 		37BAA89F1F04B4120053401F /* CornerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerLabel.swift; sourceTree = "<group>"; };
 		37BAA8A01F04B4120053401F /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
-		37BAA8AA1F04B4C90053401F /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
-		37BAA8AB1F04B4C90053401F /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
-		37BAA8AC1F04B4C90053401F /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		37BAA8AA1F04B4C90053401F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		37BAA8AB1F04B4C90053401F /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		37BAA8AC1F04B4C90053401F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		37BAA8B41F04B5310053401F /* CodeName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeName.swift; sourceTree = "<group>"; };
 		37BAA8B81F04B5DA0053401F /* GenerateCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCodeViewController.swift; sourceTree = "<group>"; };
 		37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomiseViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +115,7 @@
 		37BAA8C71F04BC830053401F /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		37E38D841F15FA46003AF4D9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		56074F141F428CF000AD8C9D /* UIView+SimpleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SimpleAnimation.swift"; sourceTree = "<group>"; };
+		56206CB41F7F22D300A8E701 /* ThemeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModels.swift; sourceTree = "<group>"; };
 		562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailTableViewController.swift; sourceTree = "<group>"; };
 		562D29581F1641D6002E5F02 /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
 		56370F491F07A4070008B2EC /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
@@ -219,9 +219,7 @@
 				37BAA89E1F04B4120053401F /* WireframeButton.swift */,
 				37BAA89F1F04B4120053401F /* CornerLabel.swift */,
 				37BAA8A01F04B4120053401F /* MessageComposer.swift */,
-				564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */,
 				564DBE971F13A69100F4CAB4 /* CornerImage.swift */,
-				371C9D471F15D8B4006FEA0E /* ThemeTableViewCell.swift */,
 				562D29581F1641D6002E5F02 /* CornerView.swift */,
 			);
 			name = "Custom Classes";
@@ -231,9 +229,9 @@
 		37BAA8A91F04B4B40053401F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				37BAA8AA1F04B4C90053401F /* UIColorExtensions.swift */,
-				37BAA8AB1F04B4C90053401F /* IntExtensions.swift */,
-				37BAA8AC1F04B4C90053401F /* ArrayExtensions.swift */,
+				37BAA8AA1F04B4C90053401F /* UIColor+Extensions.swift */,
+				37BAA8AB1F04B4C90053401F /* Int+Extensions.swift */,
+				37BAA8AC1F04B4C90053401F /* Array+Extensions.swift */,
 				56074F141F428CF000AD8C9D /* UIView+SimpleAnimation.swift */,
 			);
 			path = Extensions;
@@ -244,7 +242,7 @@
 			children = (
 				37BAA8B41F04B5310053401F /* CodeName.swift */,
 				56E19E7F1F09245B00D9F35D /* CodeWordCategory.swift */,
-				3703E43D1F0C4F7200E2F502 /* Theme.swift */,
+				56206CB41F7F22D300A8E701 /* ThemeModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +291,7 @@
 			children = (
 				37BAA8BB1F04B5E70053401F /* CustomiseViewController.swift */,
 				37BAA8BC1F04B5E70053401F /* CategoryTableViewController.swift */,
+				564DBE951F13A0B300F4CAB4 /* CategoryTableViewCell.swift */,
 				562C24511F41D1BD00B7061E /* CategoryDetailTableViewController.swift */,
 			);
 			name = "Category Management";
@@ -302,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				371C9D431F15CB06006FEA0E /* ThemesTableViewController.swift */,
+				371C9D471F15D8B4006FEA0E /* ThemeTableViewCell.swift */,
 			);
 			name = "Theme Management";
 			sourceTree = "<group>";
@@ -451,20 +451,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				37BAA8A51F04B4120053401F /* CornerLabel.swift in Sources */,
-				37BAA8AF1F04B4C90053401F /* IntExtensions.swift in Sources */,
+				37BAA8AF1F04B4C90053401F /* Int+Extensions.swift in Sources */,
 				56E19E801F09245B00D9F35D /* CodeWordCategory.swift in Sources */,
-				37BAA8AD1F04B4C90053401F /* UIColorExtensions.swift in Sources */,
+				37BAA8AD1F04B4C90053401F /* UIColor+Extensions.swift in Sources */,
 				37BAA86F1F04B30E0053401F /* AppDelegate.swift in Sources */,
 				37BAA8A71F04B4120053401F /* MessageComposer.swift in Sources */,
 				371C9D421F15B952006FEA0E /* SettingsTableViewController.swift in Sources */,
 				37BAA8A31F04B4120053401F /* WireframeButton.swift in Sources */,
 				564DBE961F13A0B300F4CAB4 /* CategoryTableViewCell.swift in Sources */,
 				371C9D461F15CB1B006FEA0E /* AboutViewController.swift in Sources */,
+				56206CB51F7F22D300A8E701 /* ThemeModels.swift in Sources */,
 				371C9D441F15CB06006FEA0E /* ThemesTableViewController.swift in Sources */,
 				37BAA8B91F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
 				564DBE981F13A69100F4CAB4 /* CornerImage.swift in Sources */,
 				371C9D481F15D8B4006FEA0E /* ThemeTableViewCell.swift in Sources */,
-				37BAA8B11F04B4C90053401F /* ArrayExtensions.swift in Sources */,
+				37BAA8B11F04B4C90053401F /* Array+Extensions.swift in Sources */,
 				37BAA8A11F04B4120053401F /* AppController.swift in Sources */,
 				562D29591F1641D6002E5F02 /* CornerView.swift in Sources */,
 				37BAA8B51F04B5310053401F /* CodeName.swift in Sources */,
@@ -472,7 +473,6 @@
 				37BAA8BD1F04B5E70053401F /* CustomiseViewController.swift in Sources */,
 				37BAA8BF1F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
 				562C24521F41D1BD00B7061E /* CategoryDetailTableViewController.swift in Sources */,
-				3703E43E1F0C4F7200E2F502 /* Theme.swift in Sources */,
 				56CA3F1B1F4672370038DFA1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +483,7 @@
 			files = (
 				377E0CD21F0CD70E0083D03F /* CodeNameCategoriesModelTests.swift in Sources */,
 				37BAA8BA1F04B5DA0053401F /* GenerateCodeViewController.swift in Sources */,
-				37BAA8B01F04B4C90053401F /* IntExtensions.swift in Sources */,
+				37BAA8B01F04B4C90053401F /* Int+Extensions.swift in Sources */,
 				37BAA8A61F04B4120053401F /* CornerLabel.swift in Sources */,
 				37BAA8A21F04B4120053401F /* AppController.swift in Sources */,
 				377E0CD01F0CD5970083D03F /* CodeWordCategoryModelTests.swift in Sources */,
@@ -491,12 +491,12 @@
 				377E0CD41F0DA2540083D03F /* ThemeModelTests.swift in Sources */,
 				377E0CD61F0DA42B0083D03F /* ThemesModelTests.swift in Sources */,
 				37BAA8BE1F04B5E70053401F /* CustomiseViewController.swift in Sources */,
-				37BAA8AE1F04B4C90053401F /* UIColorExtensions.swift in Sources */,
+				37BAA8AE1F04B4C90053401F /* UIColor+Extensions.swift in Sources */,
 				37BAA8A41F04B4120053401F /* WireframeButton.swift in Sources */,
 				37BAA8A81F04B4120053401F /* MessageComposer.swift in Sources */,
 				375DDB281F0A1EA200941B4B /* CodeWordCategory.swift in Sources */,
 				37BAA8B61F04B5310053401F /* CodeName.swift in Sources */,
-				37BAA8B21F04B4C90053401F /* ArrayExtensions.swift in Sources */,
+				37BAA8B21F04B4C90053401F /* Array+Extensions.swift in Sources */,
 				56AFDFEB1F42771600D566C7 /* CategoryDetailTableViewController.swift in Sources */,
 				37BAA8C01F04B5E70053401F /* CategoryTableViewController.swift in Sources */,
 				371C9D401F146B2A006FEA0E /* CategoryTableViewCell.swift in Sources */,
@@ -656,15 +656,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Secret Squirrel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadfrogstudios.SecretSquirrel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4e914d32-ffb4-48b0-b2ad-438d3c9e331b";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.deadfrogstudios.SecretSquirrel";
+				PROVISIONING_PROFILE = "43284631-1885-49f9-8b97-20bdfa165ec1";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.deadfrogstudios.secretsquirrel";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -676,15 +676,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Secret Squirrel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadfrogstudios.SecretSquirrel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5e70177b-68b8-4215-9cd7-11202281fdca";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.deadfrogstudios.SecretSquirrel";
+				PROVISIONING_PROFILE = "1ce056aa-2e75-4efb-99bb-780a5f7ed25e";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.deadfrogstudios.secretsquirrel";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -701,7 +701,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secret Squirrel.app/Secret Squirrel";
 			};
@@ -717,7 +717,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secret Squirrel.app/Secret Squirrel";
 			};
@@ -732,7 +732,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Secret Squirrel";
 			};
@@ -747,7 +747,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deadfrogstudios.com.Secret-SquirrelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Secret Squirrel";
 			};

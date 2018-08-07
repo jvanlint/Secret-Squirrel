@@ -1,0 +1,6 @@
+git_url "git@bitbucket.org:jvanlint/xcode-code-signing.git"
+
+type "development"
+
+app_identifier ["com.deadfrogstudios.secretsquirrel"]
+username "jvanlint@mac.com"

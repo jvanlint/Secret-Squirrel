@@ -37,8 +37,6 @@ class GenerateCodeViewController: UIViewController {
         updateAppVersionLabel()
         
         // Setup a timer to animate the squirrel image.
-        //timer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(shakeSquirrel), userInfo: nil, repeats: true)
-        
         timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true, block:{_ in self.shakeSquirrel() })
     }
     
@@ -141,10 +139,15 @@ class GenerateCodeViewController: UIViewController {
         lblCodeName.text = newCodeName.codeNameString
         
         // Change the background color to signify new code generated and to make the UI bootylicious.
-        let newBgColor = UIColor.randomFlatColor()
+        let currentColor = self.view.backgroundColor
+        var newBgColor = UIColor.randomFlatColor()
+        while (currentColor == newBgColor) {
+            newBgColor = UIColor.randomFlatColor()
+        }
         
         // Animate the transition between the current color and the newly generated random color.
-        self.bgView.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
+        //self.bgView.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
+        self.view.fadeColor(toColor: newBgColor, duration: 0.25, delay: 0, completion: nil)
 
         // Change the label to white or black depending on the contrast of the background color.
         lblCodeName.textColor = UIColor.contrastColor(color: newBgColor)

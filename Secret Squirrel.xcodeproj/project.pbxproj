@@ -663,8 +663,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadfrogstudios.SecretSquirrel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4e914d32-ffb4-48b0-b2ad-438d3c9e331b";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.deadfrogstudios.SecretSquirrel";
+				PROVISIONING_PROFILE = "43284631-1885-49f9-8b97-20bdfa165ec1";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.deadfrogstudios.secretsquirrel";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -683,8 +683,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadfrogstudios.SecretSquirrel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5e70177b-68b8-4215-9cd7-11202281fdca";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.deadfrogstudios.SecretSquirrel";
+				PROVISIONING_PROFILE = "1ce056aa-2e75-4efb-99bb-780a5f7ed25e";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.deadfrogstudios.secretsquirrel";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
